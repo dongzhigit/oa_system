@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://Y:\crawler\.idea\crawler.iml" filepath="Y:\crawler\.idea\crawler.iml" />
+      <module fileurl="file://E:\crawler_new\.idea\crawler_new.iml" filepath="E:\crawler_new\.idea\crawler_new.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/oa.iml" filepath="$PROJECT_DIR$/.idea/oa.iml" />
+      <module fileurl="file://C:\Users\admin\Desktop\python\.idea\python.iml" filepath="C:\Users\admin\Desktop\python\.idea\python.iml" />
+      <module fileurl="file://E:\python\.idea\python.iml" filepath="E:\python\.idea\python.iml" />
+    </modules>
+  </component>
+</project>
