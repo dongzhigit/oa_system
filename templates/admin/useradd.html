@@ -1,0 +1,120 @@
+{% extends 'no_attendance/base.html' %}
+{% block css %}
+<!--bootstrap css 挺方便简洁的一款第三方前端开发框架-->
+{#<link rel="stylesheet" href="/static/useradd/css/bootstrap.css" />#}
+<link rel="stylesheet" href="/static/useradd/css/style.css" />
+{% endblock %}
+
+{% block content %}
+
+<div class="span12 content">
+	<div class="box">
+		<div class="box-head">
+			<h2>{{ title }}</h2>
+		</div>
+		<div class="box-content">
+			<div class="form-horizontal">
+            <form method="post" class="form-vertical login-form" action="">{% csrf_token %}
+                <div class="control-group">
+                    <label class="control-label">选择部门/组</label>
+                    <div class="controls">
+                        <select class="large m-wrap" name="department" tabindex="1">
+                            <option value="1"></option>
+                            {% for i in group %}
+                                <option  value="{{ i.org_name }}">{{ i.org_name }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+
+
+
+				<div class="control-group">
+					<label class="control-label">选择用户(可多选)</label>
+					<div class="controls">
+						<div class="input-append">
+							<input type="text" id="jsrtxt" class="tip" name="user" style="width: 400px;" readonly="value" value=""/>
+							<span class="tip add-on"  id="jieshouren" title="选择用户"  style="min-width:70px; padding:2px 5px" >
+								<i class="icon-user" style="cursor:pointer" ></i>
+								<div style="display:none" id="selectlxr" > </div>
+							</span>
+						</div>
+					</div>
+				</div>
+
+
+
+{#				<div class="control-group">#}
+{#					<label class="control-label">&nbsp;</label>#}
+{#					<div class="controls">#}
+{#                        <button class="btn btn-fo" name="Submit" type="submit" value="Submit">提交 <i class="m-icon-swapright m-icon-white"></i></button>#}
+{#					</div>#}
+{#				</div>#}
+            <button class="btn blue btn-block">提交 <i class="m-icon-swapright icon-ok"></i></button>
+			</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+{% endblock %}
+
+{% block js %}
+
+<script src="/static/useradd/js/jQuery.js"></script>
+    <script src="/static/useradd/js/jquery.artDialog.js?skin=idialog"></script>
+	<script type="text/javascript" src="/static/js/bootstrap-datepicker.js"></script>
+	<script src="/static/js/jquery.fancybox.pack.js"></script>
+	<script src="/static/js/app.js"></script>
+	<script src="/static/js/search.js"></script>
+	<script>
+		jQuery(document).ready(function() {    
+
+		   Search.init();
+		});
+        
+    //循环输出创建十个复选框
+console.log({{ userall|safe }});
+var chtml = "";
+var user_all = {{ userall|safe }}
+for (i in user_all) {
+   chtml += "<div style='word-wrap:break-word; width:450px; '>";
+   chtml += '<label style="float:left;padding:15px"><input type="checkbox" name="aaa" value="'+user_all[i]['username']+'" class="{required:true}"  /><span style="margin-left:10px">'+user_all[i]['username']+'</span></label>';
+   chtml += "</div>";
+}
+//把得到字符串利用jquery添加到元素里面生成checkbox
+$("#selectlxr").html(chtml);
+//创建一个 dialog弹出框(第三方插件有兴趣可以看下 超赞的一款插件 http://www.planeart.cn/demo/artDialog/) 把创建好的弹出框隐藏起来
+var dia = $.dialog(
+   {
+	   title: "选择联系人", width: "500px",
+	   content: $("#selectlxr").html(),
+	   close: function () {
+		   this.hide();
+		   return false;
+	   },
+	   follow: document.getElementById("jieshouren")
+   }
+   ).hide();
+
+//点击 显示
+$("#jieshouren").click(function () {
+   dia.show();
+})
+//事件 获取checkbox点击时候的父元素的值 添加到text 如果点击收的选中状态为checked 则添加 否则 删除
+$("input[type=checkbox]").click(function () {
+   try {
+	   if ($(this).attr("checked")) {
+		   $("#jsrtxt").val($("#jsrtxt").val() + $(this).parent().text() + ",");
+{#		   document.getElementById("jsrtxt").value = document.getElementById("jsrtxt").value + $(this).parent().text()#}
+	   } else {
+		   $("#jsrtxt").val($("#jsrtxt").val().replace($(this).parent().text() + ',', ""));
+{#		   document.getElementById("jsrtxt").value = document.getElementById("jsrtxt").value + $(this).parent().text()#}
+	   }
+   } catch (e) {
+	   $("#jsrtxt").val("");
+   }
+})
+    </script>
+{% endblock %}

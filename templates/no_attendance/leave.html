@@ -1,0 +1,269 @@
+{% extends 'no_attendance/base.html' %}
+
+{% block content %}
+<h3 class="text-center ">
+   {{ title_content }}
+    <!--<small>未考勤说明单</small>-->
+</h3>
+<div class="tab-pane active" id="tab_1">
+	<form class="form-search" enctype="multipart/form-data" action="" role="form" method="post">{% csrf_token %}
+		<div class="portlet box blue">
+			<div class="portlet-title"></div>
+			<div class="portlet-body form">
+				<form action="#" class="horizontal-form">
+					<div class="row-fluid">
+						<div class="span3 ">
+							<div class="control-group">
+								<label class="control-label span8"  for="firstName">姓名:  {{ oa_u.cn_name }}</label>
+{#								<div class="controls">#}
+{#									<input type="text" name="username" class="m-wrap span8" placeholder="输入姓名">#}
+{#								</div>#}
+							</div>
+						</div>
+	
+						<div class="span3 ">
+							<div class="control-group">
+								<label class="control-label span8"  for="firstName">部门:  {{ department }}</label>
+{#								<div class="controls">#}
+{#									<input type="text" name="department" class="m-wrap span8" placeholder="输入部门">#}
+{#								</div>#}
+							</div>
+						</div>
+	
+						<div class="span3 ">
+							<div class="control-group">
+								<label class="control-label span8"  for="firstName">职位: {{ position }}</label>
+{#								<div class="controls">#}
+{#									<input type="text" name="position" class="m-wrap span8" placeholder="输入职位">#}
+{#								</div>#}
+							</div>
+						</div>
+					</div>
+    <hr style="margin-top: 0px;margin-bottom: 0px;border-top-width: 1px;border-bottom-width: 15px;">
+
+		<div class="row-fluid">
+			<div class="span6">
+				<div class="control-group">
+					<label class="control-label span2"  for="firstName">申请类别:</label>
+						<div class="controls">
+                            {% for i in apply_type %}
+                                <label class="radio">
+							        <div class="radio"><span class="">
+                                        {% if param.type == i.type %}
+                                            <input onclick="check_input(this)" type="radio" name="reason" checked value='{"show":{{ i.enclosure }},"type":"{{ i.type }}","min":"{{ i.min_time }}","max":"{{ i.max_time }}","time_stamp":"{{ i.time_stamp }}","company":"{{ i.time_company }}"}'>
+                                        {% else %}
+                                            <input onclick="check_input(this)" type="radio" name="reason" value='{"show":{{ i.enclosure }},"type":"{{ i.type }}","min":"{{ i.min_time }}","max":"{{ i.max_time }}","time_stamp":"{{ i.time_stamp }}","company":"{{ i.time_company }}"}'>
+                                        {% endif %}
+                                    </span></div>
+									    {{ i.type }}
+							    </label>
+                            {% endfor %}
+						</div>
+				</div>
+			</div>
+            <div class="span6" id="enclosure">
+				<div class="control-group">
+					<label class="control-label span2"  for="firstName">附件上传:</label>
+						<div class="controls">
+                                <label class="">
+                                    <span class="add-on"></span>
+                                    <input id="upload_img" multiple="multiple" onchange="Javascript:limitImg(this)" accept="image/*" type="file" name="fileUpload" class="m-wrap span9 m-ctrl-medium" size="16" />
+                                <span class="add-on" style="width: 1%;"></span>
+							    </label>
+						</div>
+				</div>
+			</div>
+		</div>
+
+        <hr style="margin-top: 0px;margin-bottom: 0px;border-top-width: 1px;border-bottom-width: 15px;" id="hx">
+
+        <div class="row-fluid" id="worker">
+			<div class="span6">
+				<div class="control-group">
+					<label class="control-label span2"  for="firstName">是否转正:</label>
+						<div class="controls">
+                            <label class="radio">
+                                <div class="radio"><span class="">
+                                    {% if worker == '0' %}
+                                        <input onclick="worker_xz(this)" type="radio" name="worker" checked value='0'>
+                                    {% else %}
+                                        <input onclick="worker_xz(this)" type="radio" name="worker" value='0'>
+                                    {% endif %}
+                                </span></div>
+                                    转正
+                            </label>
+                            <label class="radio">
+                                <div class="radio"><span class="">
+                                    {% if worker == '1' %}
+                                        <input onclick="worker_xz(this)" type="radio" name="worker" checked value='1'>
+                                    {% else %}
+                                        <input onclick="worker_xz(this)" type="radio" name="worker" value='1'>
+                                    {% endif %}
+                                </span></div>
+                                    未转正
+                            </label>
+						</div>
+				</div>
+			</div>
+            <div class="span6" id="worker_time">
+                    <div class="control-group">
+                        <label class="control-label span2"  for="firstName">入职时间:</label>
+                        <div class="controls">
+                            <div class="input-append date" data-date-format="yyyy-mm-dd" data-date-viewmode="years">
+                                <input class="m-wrap m-ctrl-medium date-picker" size="16" type="text" name="worker_time" value="{{ worker_time }}" />
+                                <span class="add-on"><i class="icon-calendar"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		</div>
+
+        <hr style="margin-top: 0px;margin-bottom: 0px;border-top-width: 1px;border-bottom-width: 15px;">
+        <div class="row-fluid">
+			<div class="span5">
+				<div class="control-group">
+					<label class="control-label span3" style="width: 20%;">未考勤时间:</label>
+					<div class="controls">
+                        <div class="input-append date" data-date-format="yyyy-mm-dd" data-date-viewmode="years">
+                        <span class="add-on"><i>起始日期</i></span>
+                            <input type="text" class="some_class m-wrap span9 m-ctrl-medium" size="16" name="date_s" value="{{ date_s }}" id="some_class_1">
+                            <span class="add-on"></span>
+                        </div>
+					</div>
+				</div>
+			</div>
+
+			<div class="span4">
+				<div class="input-append date" data-date-format="yyyy-mm-dd" data-date-viewmode="years">
+                    <span class="add-on"><i>结束日期</i></span>
+                    <input type="text" class="some_class m-wrap span9 m-ctrl-medium" size="16" name="date_x" value="{{ date_x }}" id="some_class_2">
+                        <span class="add-on"></span>
+                </div>
+			</div>
+
+		</div>
+		
+		<hr style="margin-top: 0px;margin-bottom: 0px;border-top-width: 1px;border-bottom-width: 15px;">
+	
+		<div class="row-fluid">
+			<div class="control-group">
+				<label class="control-label span1"  for="firstName">请假事由:</label>
+				<div class="controls">
+					<input type="text" id="firstName" class="m-wrap span11" name="outgoing_cause" value="{{ outgoing_cause }}">
+				</div>
+			</div>
+		</div>
+	
+		<button class="btn blue btn-block">提交 <i class="m-icon-swapright icon-ok"></i></button>
+	
+	</form>
+</div>
+</div>
+
+<div style="color: #ff5050;">
+注：<br>
+<div style="margin-left: 1%;">
+{% for i in apply_type %}
+    {% if i.time_company == 0 %}
+        {{ i.type }}最小单位：{{ i.min_time }}分钟<br>
+    {% elif i.time_company == 1 %}
+        {% if i.type == '病假' %}
+            {{ i.type }}最小单位：{{ i.min_time }}小时，病假条原件请交至人力资源部！<br>
+        {% else %}
+            {{ i.type }}最小单位：{{ i.min_time }}小时<br>
+        {% endif %}
+    {% else %}
+        {% if i.type == '丧假' or i.type == '陪产假' %}
+            {{ i.type }}单位：{{ i.min_time }}天<br>
+        {% else %}
+            {{ i.type }}最小单位：{{ i.min_time }}天<br>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+</div>
+</div>
+
+{% endblock %}
+{% block js %}
+    {% if log == '提交成功' %}
+        <script type="text/javascript">
+            alert("{{ log }}");
+            window.location.replace("/no_attendance/leave/")
+        </script>
+    {% elif log %}
+        <script type="text/javascript">
+            alert("{{ log }}");
+        </script>
+    {% endif %}
+	<script type="text/javascript" src="/static/js/bootstrap-datepicker.js"></script>
+	<script src="/static/js/jquery.fancybox.pack.js"></script>
+	<script src="/static/js/app.js"></script>
+	<script src="/static/js/search.js"></script>
+	<script>
+		jQuery(document).ready(function() {
+		   Search.init();
+		});
+
+		function worker_xz(worker_type) {
+		    if (worker_type.value === '0') {
+                $("#worker_time").show();
+            }else{
+		        $("#worker_time").hide();
+            }
+		    console.log(worker_type.value)
+        }
+
+        function check_input(input_s) {
+            var input = input_s.value;
+            var parram = JSON.parse(input);
+{#            console.log(parram.type);#}
+            if (parram.type === '婚假') {
+                $("#worker").show();
+                $("#hx").show();
+{#                $("#worker_time").show();#}
+            }else {
+                $("#worker").hide();
+                $("#hx").hide();
+{#                $("#worker_time").hide();#}
+            }
+            if (parram.show) {
+                $("#enclosure").hide();
+            }else{
+                $("#enclosure").show();
+            }
+        }
+
+        function check_radio(show) {
+            if (show){
+                $("#enclosure").hide();
+            }else{
+                $("#enclosure").show();
+            }
+        }
+        check_radio({{ param.show }})
+        function limitImg(id){
+            if (id.files.length >= 6){
+                alert("附件最多不能超过5个");
+                document.getElementById(id.id).value = '';
+                return;
+            }
+            for(j = 0; j < id.files.length; j++) {
+            var MyTest = document.getElementById(id.id).files[j];
+            var reader = new FileReader();
+            reader.readAsDataURL(MyTest);
+            reader.onload = function(theFile) {
+            　　var image = new Image();
+               image.src = theFile.target.result;
+               image.onload = function() {
+               if(this.width < 400 || this.height < 300){
+                        alert(MyTest.name + "文件的大小不正确，必须大于400*300像素");
+                        document.getElementById(id.id).value = '';
+                        return;
+                };
+{#               　　console.log("图片的宽度为"+this.width+",长度为"+this.height);#}
+               };
+            };
+            };
+        }
+	</script>
+{% endblock %}

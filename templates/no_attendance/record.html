@@ -1,0 +1,267 @@
+{% extends 'no_attendance/base.html' %}
+{#引入过滤器#}
+{% load myfilter %}
+{% block content %}
+<h3 class="text-center ">
+{{ title_content }}
+    <!--<small>未考勤说明单</small>-->
+</h3>
+
+<form class="form-search" action="" role="form" method="post">{% csrf_token %}
+<div class="row-fluid">
+    <div class="span12">
+        <!-- BEGIN SAMPLE FORM PORTLET-->
+        <div class="portlet box blue tabbable">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class="icon-reorder"></i>
+                    <span class="hidden-480"></span>
+                </div>
+            </div>
+            <div class="portlet-body form">
+                <div class="tabbable portlet-tabs">
+                    <ul class="nav nav-tabs">
+                        <li><a href="#portlet_tab4" data-toggle="tab">审批已通过</a></li>
+                        <li><a href="#portlet_tab3" data-toggle="tab">审批未通过</a></li>
+                        <li><a href="#portlet_tab2" data-toggle="tab">审批中</a></li>
+                        <li class="active"><a href="#portlet_tab1" data-toggle="tab">未审批</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="portlet_tab1">
+                            {% for user_submits in w_bacth %}
+                                <label class="control-label "  for="firstName">
+{#                                    部门:{{ department }} 职位:{{ department }}#}
+                                    姓名:{{ oa_u.cn_name }}<br>
+                                    提交时间:{{ user_submits.submit_time }}<br>
+                                    {% if user_submits.end_time %}
+                                        申请时段:{{ user_submits.begin_time }}_至_{{ user_submits.end_time }}<br>
+                                    {% else %}
+                                        申请时段:{{ user_submits.begin_time }}<br>
+                                    {% endif %}
+                                    {% if user_submits.leave_time %}
+                                        申请时长：{{ user_submits.leave_time|leave_t }}<br>
+                                    {% endif%}
+                                    {% if user_submits.entry_time != None %}
+                                        转正日期：{{ user_submits.entry_time }}<br>
+                                    {% endif %}
+                                    类型：{{ user_submits.leave_type }}<br>
+                                    原因:{{ user_submits.reason }}<br>
+                                    {% if user_submits.id|enclosure %}
+                                        附件：<br>
+                                        <div id="top">
+                                            <div class="img_container">
+                                                <ul>
+                                                {% for enclosure in user_submits.id|enclosure %}
+                                                    <li>
+                                                        <a href="/static/image_enclosure/{{ enclosure.filename }}" rel="sexylightbox" title="{{ enclosure.filename }}" >
+                                                        <img src="/static/image_enclosure/{{ enclosure.filename }}" alt="" />
+                                                    </a>
+                                                    </li>
+    {#                                                <li><a href="/static/fj/images/iguazu02.jpg?width=400&height=300"   title="Cataratas del Iguazú" rel="sexylightbox" ><img src="/static/fj/images/small_iguazu02.jpg" alt="" /></a></li>#}
+                                                {% endfor %}
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                    下一位审批人：{{ user_submits.superior|username_hq }}<br>
+
+                                    <button class="btn blue" name="submit" value="{{ user_submits.id }}">撤销</button>
+
+                                </label>
+                                <hr style="margin-top: 0px;margin-bottom: 0px;border-top-width: 10px;border-bottom-width: 15px;">
+                            {% endfor %}
+                        </div>
+                        <div class="tab-pane " id="portlet_tab2">
+                            {% for user_submits in bacth_z %}
+                                <label class="control-label "  for="firstName">
+{#                                    部门:{{ department }} 职位:{{ department }}#}
+                                    姓名:{{ oa_u.cn_name }}<br>
+                                    提交时间:{{ user_submits.submit_time }}<br>
+                                    {% if user_submits.end_time %}
+                                        申请时段:{{ user_submits.begin_time }}_至_{{ user_submits.end_time }}<br>
+                                    {% else %}
+                                        申请时段:{{ user_submits.begin_time }}<br>
+                                    {% endif %}
+                                    {% if user_submits.leave_time %}
+                                        申请时长：{{ user_submits.leave_time|leave_t }}<br>
+                                    {% endif%}
+                                    {% if user_submits.entry_time != None %}
+                                        转正日期：{{ user_submits.entry_time }}<br>
+                                    {% endif %}
+                                    类型：{{ user_submits.leave_type }}<br>
+                                    原因:{{ user_submits.reason }}<br>
+                                    {% if user_submits.id|enclosure %}
+                                        附件：<br>
+                                        <div id="top">
+                                            <div class="img_container">
+                                                <ul>
+                                                {% for enclosure in user_submits.id|enclosure %}
+                                                    <li>
+                                                        <a href="/static/image_enclosure/{{ enclosure.filename }}" rel="sexylightbox" title="{{ enclosure.filename }}" >
+                                                        <img src="/static/image_enclosure/{{ enclosure.filename }}" alt="" />
+                                                    </a>
+                                                    </li>
+    {#                                                <li><a href="/static/fj/images/iguazu02.jpg?width=400&height=300"   title="Cataratas del Iguazú" rel="sexylightbox" ><img src="/static/fj/images/small_iguazu02.jpg" alt="" /></a></li>#}
+                                                {% endfor %}
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                    日志：<br>
+                                    {% for i in user_submits.id|leave_log_sp %}
+                                        {% if i.uid != None and i.datetime != None %}
+                                            &nbsp;&nbsp;&nbsp;&nbsp;审批人：{{ i.uid|username_hq }}<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;审批时间：{{ i.datetime }}<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;审批反馈：{{ i.outgoing_cause }}<br>
+                                        {% endif %}
+                                    {% endfor %}
+                                    下一位审批人：{{ user_submits.superior|username_hq }}<br>
+                                </label>
+                                <hr style="margin-top: 0px;margin-bottom: 0px;border-top-width: 10px;border-bottom-width: 15px;">
+                            {% endfor %}
+                        </div>
+                        <div class="tab-pane " id="portlet_tab3">
+                            {% for user_submits in y_bacth %}
+                                <label class="control-label "  for="firstName">
+{#                                    部门:{{ department }} 职位:{{ department }}#}
+                                    姓名:{{ oa_u.cn_name }}<br>
+                                    提交时间:{{ user_submits.submit_time }}<br>
+                                    {% if user_submits.end_time %}
+                                        申请时段:{{ user_submits.begin_time }}_至_{{ user_submits.end_time }}<br>
+                                    {% else %}
+                                        申请时段:{{ user_submits.begin_time }}<br>
+                                    {% endif %}
+                                    {% if user_submits.leave_time %}
+                                        申请时长：{{ user_submits.leave_time|leave_t }}<br>
+                                    {% endif%}
+                                    {% if user_submits.entry_time != None %}
+                                        转正日期：{{ user_submits.entry_time }}<br>
+                                    {% endif %}
+                                    类型：{{ user_submits.leave_type }}<br>
+                                    原因:{{ user_submits.reason }}<br>
+                                    {% if user_submits.id|enclosure %}
+                                        附件：<br>
+                                        <div id="top">
+                                            <div class="img_container">
+                                                <ul>
+                                                {% for enclosure in user_submits.id|enclosure %}
+                                                    <li>
+                                                        <a href="/static/image_enclosure/{{ enclosure.filename }}" rel="sexylightbox" title="{{ enclosure.filename }}" >
+                                                        <img src="/static/image_enclosure/{{ enclosure.filename }}" alt="" />
+                                                    </a>
+                                                    </li>
+    {#                                                <li><a href="/static/fj/images/iguazu02.jpg?width=400&height=300"   title="Cataratas del Iguazú" rel="sexylightbox" ><img src="/static/fj/images/small_iguazu02.jpg" alt="" /></a></li>#}
+                                                {% endfor %}
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                    日志：<br>
+                                    {% for i in user_submits.id|leave_log_sp %}
+                                        {% if i.uid != None and i.datetime != None %}
+                                            &nbsp;&nbsp;&nbsp;&nbsp;审批人：{{ i.uid|username_hq }}<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;审批时间：{{ i.datetime }}<br>
+                                            {% if i.status == 1 %}
+                                                &nbsp;&nbsp;&nbsp;&nbsp;状态：审批已通过<br>
+                                            {% else %}
+                                                &nbsp;&nbsp;&nbsp;&nbsp;状态：审批未通过，请查看审批原因<br>
+                                            {% endif %}
+                                            &nbsp;&nbsp;&nbsp;&nbsp;审批反馈：{{ i.outgoing_cause }}<br>
+                                        {% endif %}
+                                    {% endfor %}
+                                </label>
+                                <hr style="margin-top: 0px;margin-bottom: 0px;border-top-width: 10px;border-bottom-width: 15px;">
+                            {% endfor %}
+                        </div>
+                        <div class="tab-pane " id="portlet_tab4">
+
+                            {% for user_submits in t_bacth %}
+                                <label class="control-label "  for="firstName">
+{#                                    部门:{{ department }} 职位:{{ department }}#}
+                                    姓名:{{ oa_u.cn_name }}<br>
+                                    提交时间:{{ user_submits.submit_time }}<br>
+                                    {% if user_submits.end_time %}
+                                        申请时段:{{ user_submits.begin_time }}_至_{{ user_submits.end_time }}<br>
+                                    {% else %}
+                                        申请时段:{{ user_submits.begin_time }}<br>
+                                    {% endif %}
+                                    {% if user_submits.leave_time %}
+                                        申请时长：{{ user_submits.leave_time|leave_t }}<br>
+                                    {% endif%}
+                                    {% if user_submits.entry_time != None %}
+                                        转正日期：{{ user_submits.entry_time }}<br>
+                                    {% endif %}
+                                    类型：{{ user_submits.leave_type }}<br>
+                                    原因:{{ user_submits.reason }}<br>
+                                    {% if user_submits.id|enclosure %}
+                                        附件：<br>
+                                        <div id="top">
+                                            <div class="img_container">
+                                                <ul>
+                                                {% for enclosure in user_submits.id|enclosure %}
+                                                    <li>
+                                                        <a href="/static/image_enclosure/{{ enclosure.filename }}" rel="sexylightbox" title="{{ enclosure.filename }}" >
+                                                        <img src="/static/image_enclosure/{{ enclosure.filename }}" alt="" />
+                                                    </a>
+                                                    </li>
+    {#                                                <li><a href="/static/fj/images/iguazu02.jpg?width=400&height=300"   title="Cataratas del Iguazú" rel="sexylightbox" ><img src="/static/fj/images/small_iguazu02.jpg" alt="" /></a></li>#}
+                                                {% endfor %}
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                    日志：<br>
+                                    {% for i in user_submits.id|leave_log_sp %}
+                                        {% if i.uid != None and i.datetime != None %}
+                                            &nbsp;&nbsp;&nbsp;&nbsp;审批人：{{ i.uid|username_hq }}<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;审批时间：{{ i.datetime }}<br>
+
+                                            {% if i.status == 1 %}
+                                                &nbsp;&nbsp;&nbsp;&nbsp;状态：审批已通过<br>
+                                            {% else %}
+                                                &nbsp;&nbsp;&nbsp;&nbsp;状态：审批未通过，请查看审批原因<br>
+                                            {% endif %}
+                                            &nbsp;&nbsp;&nbsp;&nbsp;审批反馈：{{ i.outgoing_cause }}<br>
+                                        {% endif %}
+                                    {% endfor %}
+                                </label>
+                                <hr style="margin-top: 0px;margin-bottom: 0px;border-top-width: 10px;border-bottom-width: 15px;">
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END SAMPLE FORM PORTLET-->
+    </div>
+</div>
+</form>
+
+
+
+
+{% endblock %}
+{% block js %}
+	<script type="text/javascript" src="/static/js/bootstrap-datepicker.js"></script>
+	<script src="/static/js/jquery.fancybox.pack.js"></script>
+	<script src="/static/js/app.js"></script>
+	<script src="/static/js/search.js"></script>
+    <link rel="stylesheet" href="/static/fj/global.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/static/fj/sexylightbox.css" type="text/css" media="all" />
+{#    <script type="text/javascript" src="/static/fj/js/jquery.min.js"></script>#}
+    <script type="text/javascript" src="/static/fj/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="/static/fj/js/sexylightbox.v2.3.jquery.min.js"></script>
+    <script type="text/javascript">
+{#    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>#}
+
+        $(document).ready(function(){
+             SexyLightbox.initialize({color:'black', dir: '/static/fj/sexyimages'});
+        });
+
+{#		jQuery(document).ready(function() {    #}
+{##}
+{#		   Search.init();#}
+{#		});#}
+
+	</script>
+{% endblock %}

@@ -1,0 +1,2454 @@
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/no_attendance/urls.py:15: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^modify/$', modify, name='后台'),
+
+[23/Mar/2018 17:08:49] "GET /no_attendance/examination/ HTTP/1.1" 200 16465
+[23/Mar/2018 17:08:57] "GET /no_attendance/examination/ HTTP/1.1" 200 16465
+[23/Mar/2018 17:08:57] "GET /static/image_enclosure/aaaa-1521518043722.png HTTP/1.1" 200 19256
+[23/Mar/2018 17:08:57] "GET /static/image_enclosure/aaa-1521518043722.png HTTP/1.1" 200 188800
+Not Found: /no_attendance/examination/undefined/black/loading.gif
+[23/Mar/2018 17:09:02] "GET /no_attendance/examination/undefined/black/loading.gif HTTP/1.1" 404 3587
+Not Found: /no_attendance/examination/undefined/black/loading.gif
+[23/Mar/2018 17:09:06] "GET /no_attendance/examination/undefined/black/loading.gif HTTP/1.1" 404 3587
+Not Found: /no_attendance/examination/undefined/black/loading.gif
+[23/Mar/2018 17:09:14] "GET /no_attendance/examination/undefined/black/loading.gif HTTP/1.1" 404 3587
+[23/Mar/2018 17:09:24] "GET /no_attendance/examination/ HTTP/1.1" 200 16465
+[23/Mar/2018 17:09:26] "GET /no_attendance/record/ HTTP/1.1" 200 12031
+[23/Mar/2018 17:09:37] "GET / HTTP/1.1" 200 4598
+[23/Mar/2018 17:09:37] "GET /static/css/login-soft.css HTTP/1.1" 304 0
+[23/Mar/2018 17:09:37] "GET /static/js/jquery.validate.min.js HTTP/1.1" 304 0
+[23/Mar/2018 17:09:37] "GET /static/js/jquery.backstretch.min.js HTTP/1.1" 304 0
+[23/Mar/2018 17:09:37] "GET /static/js/login-soft.js HTTP/1.1" 304 0
+[23/Mar/2018 17:09:37] "GET /static/image/bg-white-lock.png HTTP/1.1" 304 0
+[23/Mar/2018 17:09:37] "GET /static/image/syncfusion-icons-white.png HTTP/1.1" 304 0
+Not Found: /media/image/favicon.ico
+[23/Mar/2018 17:09:37] "GET /media/image/favicon.ico HTTP/1.1" 404 2233
+[23/Mar/2018 17:10:39] "POST / HTTP/1.1" 302 0
+[23/Mar/2018 17:10:39] "GET /no_attendance/attendance/ HTTP/1.1" 200 14950
+[23/Mar/2018 17:10:41] "GET /no_attendance/examination/ HTTP/1.1" 200 15382
+[23/Mar/2018 17:10:46] "GET /no_attendance/record/ HTTP/1.1" 200 12034
+[23/Mar/2018 17:10:48] "GET /no_attendance/leave/ HTTP/1.1" 200 20085
+[23/Mar/2018 17:10:50] "GET /no_attendance/attendance/ HTTP/1.1" 200 14950
+[23/Mar/2018 17:10:52] "GET /no_attendance/todo/ HTTP/1.1" 200 10301
+[23/Mar/2018 17:10:55] "GET /no_attendance/examination/ HTTP/1.1" 200 15382
+[23/Mar/2018 17:11:02] "GET /no_attendance/examination/ HTTP/1.1" 200 15382
+[23/Mar/2018 17:11:05] "GET /no_attendance/examination/ HTTP/1.1" 200 15382
+[23/Mar/2018 17:11:06] "GET /no_attendance/record/ HTTP/1.1" 200 12034
+[23/Mar/2018 17:11:07] "GET /no_attendance/leave/ HTTP/1.1" 200 20085
+[23/Mar/2018 17:11:08] "GET /no_attendance/examination/ HTTP/1.1" 200 15382
+[23/Mar/2018 17:11:10] "GET /no_attendance/record/ HTTP/1.1" 200 12034
+[23/Mar/2018 17:11:14] "GET /no_attendance/examination/ HTTP/1.1" 200 15382
+[23/Mar/2018 17:17:42] "GET /no_attendance/todo/ HTTP/1.1" 200 10301
+[23/Mar/2018 17:17:43] "GET /no_attendance/attendance/ HTTP/1.1" 200 14950
+[23/Mar/2018 17:17:47] "GET /no_attendance/leave/ HTTP/1.1" 200 20085
+[23/Mar/2018 17:17:50] "GET /no_attendance/record/ HTTP/1.1" 200 12034
+[23/Mar/2018 17:18:09] "GET /no_attendance/examination/ HTTP/1.1" 200 15382
+[23/Mar/2018 17:20:57] "GET /no_attendance/todo/ HTTP/1.1" 200 10301
+[23/Mar/2018 17:20:58] "GET /no_attendance/attendance/ HTTP/1.1" 200 14950
+[23/Mar/2018 17:26:26] "GET /no_attendance/useradd/ HTTP/1.1" 200 18099
+[23/Mar/2018 17:26:40] "GET /no_attendance/modify/ HTTP/1.1" 200 14467
+[23/Mar/2018 17:26:49] "GET /no_attendance/todo/ HTTP/1.1" 200 10301
+[23/Mar/2018 17:26:50] "GET /no_attendance/attendance/ HTTP/1.1" 200 14950
+[23/Mar/2018 17:26:52] "GET /no_attendance/examination/ HTTP/1.1" 200 15382
+[26/Mar/2018 08:58:52] "GET /no_attendance/record/ HTTP/1.1" 200 12034
+[26/Mar/2018 08:58:57] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/css/style.css HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/css/default.css HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/fj/global.css HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/fj/sexylightbox.css HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/js/app.js HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/js/search.js HTTP/1.1" 304 0
+[26/Mar/2018 08:58:57] "GET /static/fj/js/sexylightbox.v2.3.jquery.min.js HTTP/1.1" 304 0
+[26/Mar/2018 08:58:59] "GET /static/image/lingdu.png HTTP/1.1" 304 0
+[26/Mar/2018 08:58:59] "GET /static/image/menu-toggler.png HTTP/1.1" 304 0
+[26/Mar/2018 08:59:06] "GET /static/image/css HTTP/1.1" 304 0
+[26/Mar/2018 08:59:15] "GET /static/image/fontawesome-webfont.woff HTTP/1.1" 304 0
+[26/Mar/2018 08:59:15] "GET /static/image/icon-color.png HTTP/1.1" 304 0
+[26/Mar/2018 08:59:15] "GET /static/image/icon-color-close.png HTTP/1.1" 304 0
+[26/Mar/2018 08:59:15] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 304 0
+[28/Mar/2018 09:47:36] "GET / HTTP/1.1" 200 4598
+[28/Mar/2018 09:47:36] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[28/Mar/2018 09:47:36] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[28/Mar/2018 09:47:36] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[28/Mar/2018 09:47:36] "GET /static/css/style-metro.css HTTP/1.1" 200 13379
+[28/Mar/2018 09:47:36] "GET /static/css/style-responsive.css HTTP/1.1" 200 8951
+[28/Mar/2018 09:47:36] "GET /static/css/default.css HTTP/1.1" 200 7204
+[28/Mar/2018 09:47:36] "GET /static/css/style.css HTTP/1.1" 200 99970
+[28/Mar/2018 09:47:36] "GET /static/css/uniform.default.css HTTP/1.1" 200 10847
+[28/Mar/2018 09:47:36] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[28/Mar/2018 09:47:36] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[28/Mar/2018 09:47:36] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[28/Mar/2018 09:47:36] "GET /static/css/login-soft.css HTTP/1.1" 200 2303
+[28/Mar/2018 09:47:36] "GET /static/js/jquery.validate.min.js HTTP/1.1" 200 21933
+[28/Mar/2018 09:47:36] "GET /static/js/login-soft.js HTTP/1.1" 200 6943
+[28/Mar/2018 09:47:36] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[28/Mar/2018 09:47:36] "GET /static/js/jquery.backstretch.min.js HTTP/1.1" 200 4047
+[28/Mar/2018 09:47:36] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[28/Mar/2018 09:47:36] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[28/Mar/2018 09:47:36] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[28/Mar/2018 09:47:36] "GET /static/js/app.js HTTP/1.1" 304 0
+[28/Mar/2018 09:47:36] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[28/Mar/2018 09:47:36] "GET /static/image/lingdu.png HTTP/1.1" 200 8622
+[28/Mar/2018 09:47:36] "GET /static/image/css HTTP/1.1" 200 0
+[28/Mar/2018 09:47:36] "GET /static/image/bg-white-lock.png HTTP/1.1" 200 137
+[28/Mar/2018 09:47:36] "GET /static/image/syncfusion-icons-white.png HTTP/1.1" 200 5550
+[28/Mar/2018 09:47:36] "GET /static/image/fontawesome-webfont.woff HTTP/1.1" 200 43572
+Not Found: /media/image/favicon.ico
+[28/Mar/2018 09:47:36] "GET /media/image/favicon.ico HTTP/1.1" 404 2233
+[28/Mar/2018 09:47:36] "GET /static/image/sprite.png HTTP/1.1" 200 35400
+[28/Mar/2018 09:47:41] "POST / HTTP/1.1" 302 0
+[28/Mar/2018 09:47:41] "GET /no_attendance/attendance/ HTTP/1.1" 200 14955
+[28/Mar/2018 09:47:41] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[28/Mar/2018 09:47:41] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[28/Mar/2018 09:47:41] "GET /static/css/style.css HTTP/1.1" 304 0
+[28/Mar/2018 09:47:41] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[28/Mar/2018 09:47:41] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[28/Mar/2018 09:47:41] "GET /static/css/default.css HTTP/1.1" 304 0
+[28/Mar/2018 09:47:41] "GET /static/js/search.js HTTP/1.1" 200 287
+[28/Mar/2018 09:47:41] "GET /static/image/menu-toggler.png HTTP/1.1" 200 948
+[28/Mar/2018 09:47:41] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 304 0
+[28/Mar/2018 09:47:41] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[28/Mar/2018 09:47:41] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 304 0
+[28/Mar/2018 09:47:41] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 200 567
+[28/Mar/2018 09:47:41] "GET /static/image/icon-color.png HTTP/1.1" 200 1240
+[28/Mar/2018 09:47:41] "GET /static/image/favicon.ico HTTP/1.1" 200 569
+[28/Mar/2018 09:47:44] "GET /no_attendance/record/ HTTP/1.1" 200 21047
+[28/Mar/2018 09:47:44] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[28/Mar/2018 09:47:44] "GET /static/js/search.js HTTP/1.1" 200 287
+[28/Mar/2018 09:47:44] "GET /static/fj/sexylightbox.css HTTP/1.1" 200 2522
+[28/Mar/2018 09:47:44] "GET /static/fj/global.css HTTP/1.1" 200 5539
+[28/Mar/2018 09:47:44] "GET /static/image_enclosure/aaa-1521518043722.png HTTP/1.1" 200 188800
+[28/Mar/2018 09:47:44] "GET /static/fj/js/sexylightbox.v2.3.jquery.min.js HTTP/1.1" 304 0
+[28/Mar/2018 09:47:44] "GET /static/image_enclosure/aaaa-1521518043722.png HTTP/1.1" 200 19256
+[28/Mar/2018 09:47:44] "GET /static/fj/sexyimages/black/buttons.png HTTP/1.1" 200 2134
+Not Found: /no_attendance/record/undefined/black/loading.gif
+[28/Mar/2018 09:47:57] "GET /no_attendance/record/undefined/black/loading.gif HTTP/1.1" 404 3572
+[28/Mar/2018 09:48:04] "GET /no_attendance/examination/ HTTP/1.1" 200 11579
+[28/Mar/2018 09:48:05] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 65536
+- Broken pipe from ('192.168.30.86', 61910)
+[28/Mar/2018 09:48:05] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[28/Mar/2018 09:48:05] "GET /static/fj/global.css HTTP/1.1" 200 5539
+[28/Mar/2018 09:48:05] "GET /static/fj/sexylightbox.css HTTP/1.1" 200 2522
+[28/Mar/2018 09:48:05] "GET /static/js/search.js HTTP/1.1" 200 287
+[28/Mar/2018 10:02:11] "GET /no_attendance/todo/ HTTP/1.1" 200 10289
+[28/Mar/2018 10:02:11] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[28/Mar/2018 10:02:11] "GET /static/css/style-metro.css HTTP/1.1" 200 13379
+[28/Mar/2018 10:02:11] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 21928
+[28/Mar/2018 10:02:11] "GET /static/css/style-responsive.css HTTP/1.1" 200 8951
+[28/Mar/2018 10:02:11] "GET /static/css/style.css HTTP/1.1" 200 65536
+- Broken pipe from ('192.168.30.86', 62917)
+[28/Mar/2018 10:02:11] "GET /static/js/search.js HTTP/1.1" 200 287
+[28/Mar/2018 10:02:11] "GET /static/fj/global.css HTTP/1.1" 200 5539
+[28/Mar/2018 10:02:11] "GET /static/fj/sexylightbox.css HTTP/1.1" 200 2522
+[28/Mar/2018 10:02:11] "GET /no_attendance/attendance/ HTTP/1.1" 200 14955
+[28/Mar/2018 10:02:11] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[28/Mar/2018 10:02:11] "GET /static/js/search.js HTTP/1.1" 304 0
+[28/Mar/2018 10:02:11] "GET /static/image/sprite.png HTTP/1.1" 200 24576
+- Broken pipe from ('192.168.30.86', 62927)
+[28/Mar/2018 10:03:46] "GET /no_attendance/attendance/ HTTP/1.1" 200 15029
+[28/Mar/2018 10:03:46] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[28/Mar/2018 10:03:46] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[28/Mar/2018 10:03:46] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 105942
+[28/Mar/2018 10:03:46] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[28/Mar/2018 10:03:46] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[28/Mar/2018 10:03:46] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[28/Mar/2018 10:03:46] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[28/Mar/2018 10:03:46] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[28/Mar/2018 10:03:46] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[28/Mar/2018 10:03:46] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[28/Mar/2018 10:03:46] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[28/Mar/2018 10:03:46] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 304 0
+[28/Mar/2018 10:03:46] "GET /static/js/app.js HTTP/1.1" 304 0
+[28/Mar/2018 10:03:46] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[28/Mar/2018 10:03:46] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 304 0
+[28/Mar/2018 10:03:46] "GET /static/js/search.js HTTP/1.1" 304 0
+[28/Mar/2018 10:03:46] "GET /static/css/style-metro.css HTTP/1.1" 200 13379
+[28/Mar/2018 10:03:46] "GET /static/css/default.css HTTP/1.1" 200 7204
+[28/Mar/2018 10:03:46] "GET /static/css/style-responsive.css HTTP/1.1" 200 8951
+[28/Mar/2018 10:03:46] "GET /static/css/uniform.default.css HTTP/1.1" 200 10847
+[28/Mar/2018 10:03:46] "GET /static/css/style.css HTTP/1.1" 200 99970
+[28/Mar/2018 10:03:46] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 200 18420
+[28/Mar/2018 10:03:46] "GET /static/image/menu-toggler.png HTTP/1.1" 200 948
+[28/Mar/2018 10:03:46] "GET /static/image/lingdu.png HTTP/1.1" 200 8622
+[28/Mar/2018 10:03:46] "GET /static/image/css HTTP/1.1" 200 0
+[28/Mar/2018 10:03:46] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 200 567
+[28/Mar/2018 10:03:46] "GET /static/image/icon-color.png HTTP/1.1" 200 1240
+[28/Mar/2018 10:03:46] "GET /static/image/sprite.png HTTP/1.1" 304 0
+[28/Mar/2018 10:03:46] "GET /static/js/app.js HTTP/1.1" 304 0
+[28/Mar/2018 10:03:48] "GET /no_attendance/attendance/ HTTP/1.1" 200 15029
+[28/Mar/2018 10:03:48] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[28/Mar/2018 10:03:48] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 21928
+- Broken pipe from ('192.168.30.86', 63025)
+[28/Mar/2018 10:03:53] "GET /no_attendance/attendance/ HTTP/1.1" 200 15029
+[28/Mar/2018 10:03:53] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[28/Mar/2018 10:03:53] "GET /static/css/style-metro.css HTTP/1.1" 200 13379
+[28/Mar/2018 10:03:53] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 21928
+[28/Mar/2018 10:03:53] "GET /static/css/style-responsive.css HTTP/1.1" 200 8951
+[28/Mar/2018 10:03:53] "GET /static/css/default.css HTTP/1.1" 200 7204
+[28/Mar/2018 10:03:53] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 105942
+[28/Mar/2018 10:03:53] "GET /static/css/uniform.default.css HTTP/1.1" 200 10847
+[28/Mar/2018 10:03:53] "GET /static/css/style.css HTTP/1.1" 200 99970
+[28/Mar/2018 10:03:53] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 200 18420
+[28/Mar/2018 10:03:53] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 7200
+[28/Mar/2018 10:03:53] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 28538
+[28/Mar/2018 10:03:53] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 200 9595
+[28/Mar/2018 10:03:53] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 200 4525
+[28/Mar/2018 10:03:53] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 200 93068
+[28/Mar/2018 10:03:53] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 200 1301
+[28/Mar/2018 10:03:53] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 200 8308
+[28/Mar/2018 10:03:53] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 200 228147
+[28/Mar/2018 10:03:53] "GET /static/js/app.js HTTP/1.1" 200 33049
+[28/Mar/2018 10:03:53] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 200 37168
+[28/Mar/2018 10:03:53] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 200 22643
+[28/Mar/2018 10:03:53] "GET /static/js/search.js HTTP/1.1" 200 287
+[28/Mar/2018 10:03:53] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 200 114077
+[28/Mar/2018 10:03:53] "GET /static/image/lingdu.png HTTP/1.1" 200 8622
+[28/Mar/2018 10:03:53] "GET /static/image/menu-toggler.png HTTP/1.1" 200 948
+[28/Mar/2018 10:03:53] "GET /static/image/css HTTP/1.1" 200 0
+[28/Mar/2018 10:03:53] "GET /static/image/icon-color.png HTTP/1.1" 200 1240
+[28/Mar/2018 10:03:53] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 200 567
+[28/Mar/2018 10:03:53] "GET /static/image/sprite.png HTTP/1.1" 200 35400
+[28/Mar/2018 10:03:53] "GET /static/image/fontawesome-webfont.woff HTTP/1.1" 200 43572
+[28/Mar/2018 10:03:54] "GET /static/js/app.js HTTP/1.1" 200 33049
+[28/Mar/2018 10:03:54] "POST /no_attendance/attendance/ HTTP/1.1" 200 15079
+[28/Mar/2018 10:03:56] "POST /no_attendance/attendance/ HTTP/1.1" 200 15079
+[28/Mar/2018 10:04:12] "GET /no_attendance/attendance/ HTTP/1.1" 200 15002
+[28/Mar/2018 10:04:18] "POST /no_attendance/attendance/ HTTP/1.1" 200 15052
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 23, 2018 - 17:08:48
+Django version 1.9.5, using settings 'oa.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/no_attendance/urls.py:15: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^modify/$', modify, name='后台'),
+
+[28/Mar/2018 10:05:49] "GET /no_attendance/attendance/ HTTP/1.1" 200 14984
+[28/Mar/2018 10:05:49] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[28/Mar/2018 10:05:49] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 24576
+- Broken pipe from ('192.168.30.86', 63160)
+[28/Mar/2018 10:05:49] "GET /static/css/style-metro.css HTTP/1.1" 200 13379
+[28/Mar/2018 10:05:49] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 21928
+- Broken pipe from ('192.168.30.86', 63162)
+[28/Mar/2018 10:05:49] "GET /static/css/style.css HTTP/1.1" 200 24576
+- Broken pipe from ('192.168.30.86', 63164)
+[28/Mar/2018 10:05:52] "GET /no_attendance/attendance/ HTTP/1.1" 200 14984
+[28/Mar/2018 10:05:52] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[28/Mar/2018 10:05:52] "GET /static/css/style-metro.css HTTP/1.1" 200 13379
+[28/Mar/2018 10:05:52] "GET /static/css/style-responsive.css HTTP/1.1" 200 8951
+[28/Mar/2018 10:05:52] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 21928
+[28/Mar/2018 10:05:52] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 105942
+[28/Mar/2018 10:05:52] "GET /static/css/default.css HTTP/1.1" 200 7204
+[28/Mar/2018 10:05:52] "GET /static/css/uniform.default.css HTTP/1.1" 200 10847
+[28/Mar/2018 10:05:52] "GET /static/css/style.css HTTP/1.1" 200 99970
+[28/Mar/2018 10:05:52] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 200 18420
+[28/Mar/2018 10:05:52] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 7200
+[28/Mar/2018 10:05:52] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 28538
+[28/Mar/2018 10:05:52] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 200 4525
+[28/Mar/2018 10:05:52] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 200 93068
+[28/Mar/2018 10:05:52] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 200 9595
+[28/Mar/2018 10:05:52] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 200 1301
+[28/Mar/2018 10:05:52] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 200 8308
+[28/Mar/2018 10:05:52] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 200 228147
+[28/Mar/2018 10:05:52] "GET /static/js/app.js HTTP/1.1" 200 33049
+[28/Mar/2018 10:05:52] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 200 37168
+[28/Mar/2018 10:05:52] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 200 114077
+[28/Mar/2018 10:05:52] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 200 22643
+[28/Mar/2018 10:05:52] "GET /static/js/search.js HTTP/1.1" 200 287
+[28/Mar/2018 10:05:52] "GET /static/image/css HTTP/1.1" 200 0
+[28/Mar/2018 10:05:52] "GET /static/image/lingdu.png HTTP/1.1" 200 8622
+[28/Mar/2018 10:05:52] "GET /static/image/menu-toggler.png HTTP/1.1" 200 948
+[28/Mar/2018 10:05:52] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 200 567
+[28/Mar/2018 10:05:52] "GET /static/image/icon-color.png HTTP/1.1" 200 1240
+[28/Mar/2018 10:05:52] "GET /static/image/sprite.png HTTP/1.1" 200 35400
+[28/Mar/2018 10:05:52] "GET /static/image/fontawesome-webfont.woff HTTP/1.1" 200 43572
+[28/Mar/2018 10:05:52] "GET /static/js/app.js HTTP/1.1" 200 33049
+[28/Mar/2018 10:05:54] "GET /no_attendance/attendance/ HTTP/1.1" 200 14984
+[28/Mar/2018 10:05:54] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[28/Mar/2018 10:05:54] "GET /static/css/style-metro.css HTTP/1.1" 200 13379
+[28/Mar/2018 10:05:54] "GET /static/css/style-responsive.css HTTP/1.1" 200 8951
+[28/Mar/2018 10:05:54] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 21928
+[28/Mar/2018 10:05:54] "GET /static/css/default.css HTTP/1.1" 200 7204
+[28/Mar/2018 10:05:54] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 105942
+[28/Mar/2018 10:05:54] "GET /static/css/uniform.default.css HTTP/1.1" 200 10847
+[28/Mar/2018 10:05:54] "GET /static/css/style.css HTTP/1.1" 200 99970
+[28/Mar/2018 10:05:54] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 200 18420
+[28/Mar/2018 10:05:54] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 7200
+[28/Mar/2018 10:05:54] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 200 4525
+[28/Mar/2018 10:05:54] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 28538
+[28/Mar/2018 10:05:54] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 200 93068
+[28/Mar/2018 10:05:54] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 200 9595
+[28/Mar/2018 10:05:54] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 200 1301
+[28/Mar/2018 10:05:54] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 200 8308
+[28/Mar/2018 10:05:54] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 200 228147
+[28/Mar/2018 10:05:54] "GET /static/js/app.js HTTP/1.1" 200 33049
+[28/Mar/2018 10:05:54] "GET /static/image/css HTTP/1.1" 200 0
+[28/Mar/2018 10:05:54] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 200 37168
+[28/Mar/2018 10:05:54] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 200 114077
+[28/Mar/2018 10:05:54] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 200 22643
+[28/Mar/2018 10:05:54] "GET /static/js/search.js HTTP/1.1" 200 287
+[28/Mar/2018 10:05:54] "GET /static/image/lingdu.png HTTP/1.1" 200 8622
+[28/Mar/2018 10:05:54] "GET /static/image/menu-toggler.png HTTP/1.1" 200 948
+[28/Mar/2018 10:05:54] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 200 567
+[28/Mar/2018 10:05:54] "GET /static/image/icon-color.png HTTP/1.1" 200 1240
+[28/Mar/2018 10:05:54] "GET /static/image/sprite.png HTTP/1.1" 200 35400
+[28/Mar/2018 10:05:54] "GET /static/image/fontawesome-webfont.woff HTTP/1.1" 200 43572
+[28/Mar/2018 10:05:55] "GET /static/js/app.js HTTP/1.1" 200 33049
+[28/Mar/2018 10:06:13] "GET /no_attendance/attendance/ HTTP/1.1" 200 14984
+[28/Mar/2018 10:06:13] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[28/Mar/2018 10:06:13] "GET /static/css/style-metro.css HTTP/1.1" 200 13379
+[28/Mar/2018 10:06:13] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 24576
+- Broken pipe from ('192.168.30.86', 63241)
+[28/Mar/2018 10:06:13] "GET /static/css/style-responsive.css HTTP/1.1" 200 8951
+[28/Mar/2018 10:06:13] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 21928
+- Broken pipe from ('192.168.30.86', 63243)
+[28/Mar/2018 10:06:13] "GET /static/css/uniform.default.css HTTP/1.1" 200 10847
+[28/Mar/2018 10:06:13] "GET /static/css/style.css HTTP/1.1" 200 24576
+- Broken pipe from ('192.168.30.86', 63245)
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/no_attendance/urls.py:15: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^modify/$', modify, name='后台'),
+
+[30/Mar/2018 08:34:31] "GET /no_attendance/record/ HTTP/1.1" 200 19619
+[30/Mar/2018 08:34:33] "GET /static/image_enclosure/01-1522308976219.jpg HTTP/1.1" 304 0
+Not Found: /no_attendance/record/undefined/black/loading.gif
+[30/Mar/2018 08:39:07] "GET /no_attendance/record/undefined/black/loading.gif HTTP/1.1" 404 3572
+[30/Mar/2018 08:50:58] "GET /no_attendance/todo/ HTTP/1.1" 200 10289
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 29, 2018 - 17:36:53
+Django version 1.9.5, using settings 'oa.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+4
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/no_attendance/urls.py:16: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got keywork.views.work_backup). Pass the callable instead.
+  url(r'^backup-(?P<a>\w+)-(?P<b>\w+)-(?P<c>\w+)-(?P<d>\w+)$', 'keywork.views.work_backup'),
+
+/home/oa/no_attendance/urls.py:16: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^backup-(?P<a>\w+)-(?P<b>\w+)-(?P<c>\w+)-(?P<d>\w+)$', 'keywork.views.work_backup'),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 30, 2018 - 09:26:36
+Django version 1.9.5, using settings 'oa.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/no_attendance/urls.py:16: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got keywork.views.work_backup). Pass the callable instead.
+  url(r'^backup-(?P<a>\w+)-(?P<b>\w+)-(?P<c>\w+)-(?P<d>\w+)$', 'keywork.views.work_backup'),
+
+/home/oa/no_attendance/urls.py:16: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^backup-(?P<a>\w+)-(?P<b>\w+)-(?P<c>\w+)-(?P<d>\w+)$', 'keywork.views.work_backup'),
+
+[30/Mar/2018 09:31:04] "GET / HTTP/1.1" 200 4598
+[30/Mar/2018 09:31:04] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 200 24576
+- Broken pipe from ('192.168.30.86', 64889)
+[30/Mar/2018 09:31:04] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 200 4525
+[30/Mar/2018 09:31:04] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 7200
+- Broken pipe from ('192.168.30.86', 64890)
+[30/Mar/2018 09:31:04] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 24576
+- Broken pipe from ('192.168.30.86', 64892)
+[30/Mar/2018 09:31:04] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 200 24576
+- Broken pipe from ('192.168.30.86', 64891)
+[30/Mar/2018 09:31:04] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 200 9595
+[30/Mar/2018 09:31:04] "GET /static/js/app.js HTTP/1.1" 200 24576
+- Broken pipe from ('192.168.30.86', 64897)
+Not Found: /media/image/favicon.ico
+[30/Mar/2018 09:31:04] "GET /media/image/favicon.ico HTTP/1.1" 404 2233
+[30/Mar/2018 09:31:12] "POST / HTTP/1.1" 200 4603
+Not Found: /favicon.ico
+[30/Mar/2018 09:31:12] "GET /favicon.ico HTTP/1.1" 404 2197
+[30/Mar/2018 09:31:17] "POST / HTTP/1.1" 302 0
+[30/Mar/2018 09:31:17] "GET /no_attendance/attendance/ HTTP/1.1" 200 15037
+[30/Mar/2018 09:31:18] "GET /static/css/default.css HTTP/1.1" 200 7204
+[30/Mar/2018 09:31:18] "GET /static/css/style-responsive.css HTTP/1.1" 200 8951
+[30/Mar/2018 09:31:18] "GET /static/css/uniform.default.css HTTP/1.1" 200 10847
+[30/Mar/2018 09:31:18] "GET /static/image/menu-toggler.png HTTP/1.1" 200 948
+[30/Mar/2018 09:31:18] "GET /static/js/search.js HTTP/1.1" 200 287
+[30/Mar/2018 09:31:18] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 200 37168
+[30/Mar/2018 09:31:18] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 200 22643
+[30/Mar/2018 09:31:18] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 200 114077
+Not Found: /no_attendance/backup
+[30/Mar/2018 09:31:27] "GET /no_attendance/backup HTTP/1.1" 404 3726
+Not Found: /no_attendance/backup-
+[30/Mar/2018 09:31:37] "GET /no_attendance/backup- HTTP/1.1" 404 3729
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 30, 2018 - 09:27:22
+Django version 1.9.5, using settings 'oa.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/no_attendance/urls.py:16: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got keywork.views.work_backup). Pass the callable instead.
+  url(r'^backup/$', 'keywork.views.work_backup'),
+
+/home/oa/no_attendance/urls.py:16: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^backup/$', 'keywork.views.work_backup'),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 30, 2018 - 09:43:17
+Django version 1.9.5, using settings 'oa.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/no_attendance/urls.py:16: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got keywork.views.work_backup). Pass the callable instead.
+  url(r'^backup/$', 'keywork.views.work_backup'),
+
+/home/oa/no_attendance/urls.py:16: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^backup/$', 'keywork.views.work_backup'),
+
+Internal Server Error: /no_attendance/backup
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 123, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/site-packages/django/middleware/common.py", line 61, in process_request
+    if self.should_redirect_with_slash(request):
+  File "/usr/local/lib/python2.7/site-packages/django/middleware/common.py", line 80, in should_redirect_with_slash
+    and urlresolvers.is_valid_path('%s/' % request.path_info, urlconf)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 668, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 534, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 376, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 376, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 248, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 255, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/site-packages/django/utils/lru_cache.py", line 100, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 121, in get_callable
+    if submod and not module_has_submodule(import_module(parentmod), submod):
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named keywork
+[30/Mar/2018 09:44:24] "GET /no_attendance/backup HTTP/1.1" 500 97491
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/no_attendance/urls.py:16: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^backup/$', work_backup),
+
+[02/Apr/2018 10:09:41] "GET / HTTP/1.1" 200 4598
+[02/Apr/2018 10:09:41] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[02/Apr/2018 10:09:41] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[02/Apr/2018 10:09:41] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[02/Apr/2018 10:09:41] "GET /static/css/style-metro.css HTTP/1.1" 200 13379
+[02/Apr/2018 10:09:41] "GET /static/css/style-responsive.css HTTP/1.1" 200 8951
+[02/Apr/2018 10:09:41] "GET /static/css/default.css HTTP/1.1" 200 7204
+[02/Apr/2018 10:09:41] "GET /static/css/uniform.default.css HTTP/1.1" 200 10847
+[02/Apr/2018 10:09:41] "GET /static/css/login-soft.css HTTP/1.1" 200 2303
+[02/Apr/2018 10:09:41] "GET /static/css/style.css HTTP/1.1" 200 99970
+[02/Apr/2018 10:09:41] "GET /static/image/lingdu.png HTTP/1.1" 200 8622
+[02/Apr/2018 10:09:41] "GET /static/image/css HTTP/1.1" 200 0
+[02/Apr/2018 10:09:41] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[02/Apr/2018 10:09:41] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[02/Apr/2018 10:09:41] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[02/Apr/2018 10:09:41] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[02/Apr/2018 10:09:41] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[02/Apr/2018 10:09:41] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[02/Apr/2018 10:09:41] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[02/Apr/2018 10:09:41] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[02/Apr/2018 10:09:41] "GET /static/js/jquery.validate.min.js HTTP/1.1" 304 0
+[02/Apr/2018 10:09:41] "GET /static/js/jquery.backstretch.min.js HTTP/1.1" 304 0
+[02/Apr/2018 10:09:41] "GET /static/js/login-soft.js HTTP/1.1" 304 0
+[02/Apr/2018 10:09:41] "GET /static/js/app.js HTTP/1.1" 304 0
+[02/Apr/2018 10:09:41] "GET /static/image/syncfusion-icons-white.png HTTP/1.1" 200 5550
+[02/Apr/2018 10:09:41] "GET /static/image/bg-white-lock.png HTTP/1.1" 200 137
+[02/Apr/2018 10:09:41] "GET /static/image/fontawesome-webfont.woff HTTP/1.1" 200 43572
+Not Found: /media/image/favicon.ico
+[02/Apr/2018 10:09:41] "GET /media/image/favicon.ico HTTP/1.1" 404 2233
+[02/Apr/2018 10:09:41] "GET /static/image/sprite.png HTTP/1.1" 200 35400
+[02/Apr/2018 10:09:46] "POST / HTTP/1.1" 302 0
+[02/Apr/2018 10:09:47] "GET /no_attendance/attendance/ HTTP/1.1" 200 14828
+[02/Apr/2018 10:09:47] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[02/Apr/2018 10:09:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 49152
+- Broken pipe from ('192.168.30.86', 58952)
+[02/Apr/2018 10:09:47] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 21928
+- Broken pipe from ('192.168.30.86', 58954)
+[02/Apr/2018 10:09:47] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[02/Apr/2018 10:09:47] "GET /static/js/search.js HTTP/1.1" 200 287
+[02/Apr/2018 10:09:47] "GET /static/image/lingdu.png HTTP/1.1" 200 8622
+[02/Apr/2018 10:09:47] "GET /static/image/menu-toggler.png HTTP/1.1" 200 948
+[02/Apr/2018 10:09:47] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 304 0
+[02/Apr/2018 10:09:47] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 304 0
+[02/Apr/2018 10:09:47] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[02/Apr/2018 10:09:47] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 200 567
+[02/Apr/2018 10:09:47] "GET /static/image/icon-color.png HTTP/1.1" 200 1240
+[02/Apr/2018 10:09:47] "GET /static/image/favicon.ico HTTP/1.1" 200 569
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 30, 2018 - 17:35:16
+Django version 1.9.5, using settings 'oa.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+Unhandled exception in thread started by <function wrapper at 0x7fbdfc7ead70>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/oa/urls.py", line 29, in <module>
+    url(r'^no_attendance/', include('no_attendance.urls')),
+  File "/usr/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/no_attendance/urls.py", line 5, in <module>
+    from no_attendance.views import *
+  File "/home/oa/no_attendance/views.py", line 69
+    def time_switch(date):
+    ^
+IndentationError: expected an indented block
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+Unhandled exception in thread started by <function wrapper at 0x7f93cd920d70>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/oa/urls.py", line 29, in <module>
+    url(r'^no_attendance/', include('no_attendance.urls')),
+  File "/usr/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/no_attendance/urls.py", line 5, in <module>
+    from no_attendance.views import *
+  File "/home/oa/no_attendance/views.py", line 67
+    elif qj_type == '产检假':
+       ^
+IndentationError: expected an indented block
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+Unhandled exception in thread started by <function wrapper at 0x7f086df75d70>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/oa/urls.py", line 29, in <module>
+    url(r'^no_attendance/', include('no_attendance.urls')),
+  File "/usr/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/no_attendance/urls.py", line 5, in <module>
+    from no_attendance.views import *
+  File "/home/oa/no_attendance/views.py", line 67
+    elif qj_type == '产检假':
+       ^
+IndentationError: expected an indented block
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+Unhandled exception in thread started by <function wrapper at 0x7f6c2454dd70>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/oa/urls.py", line 29, in <module>
+    url(r'^no_attendance/', include('no_attendance.urls')),
+  File "/usr/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/no_attendance/urls.py", line 5, in <module>
+    from no_attendance.views import *
+  File "/home/oa/no_attendance/views.py", line 68
+    elif qj_type == '婚假':
+    ^
+IndentationError: expected an indented block
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+Unhandled exception in thread started by <function wrapper at 0x7fe569184d70>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/oa/urls.py", line 29, in <module>
+    url(r'^no_attendance/', include('no_attendance.urls')),
+  File "/usr/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/no_attendance/urls.py", line 5, in <module>
+    from no_attendance.views import *
+  File "/home/oa/no_attendance/views.py", line 67
+    elif qj_type == '婚假':
+       ^
+IndentationError: expected an indented block
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+Unhandled exception in thread started by <function wrapper at 0x7f168c3add70>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/oa/urls.py", line 29, in <module>
+    url(r'^no_attendance/', include('no_attendance.urls')),
+  File "/usr/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/no_attendance/urls.py", line 5, in <module>
+    from no_attendance.views import *
+  File "/home/oa/no_attendance/views.py", line 67
+    elif qj_type == '婚假':
+       ^
+IndentationError: expected an indented block
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+Unhandled exception in thread started by <function wrapper at 0x7fcee37dcd70>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/oa/urls.py", line 29, in <module>
+    url(r'^no_attendance/', include('no_attendance.urls')),
+  File "/usr/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/no_attendance/urls.py", line 5, in <module>
+    from no_attendance.views import *
+  File "/home/oa/no_attendance/views.py", line 67
+    elif qj_type == '婚假':
+       ^
+IndentationError: expected an indented block
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/no_attendance/urls.py:16: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^backup/$', work_backup),
+
+[02/Apr/2018 14:59:03] "GET /no_attendance/leave/ HTTP/1.1" 200 20184
+[02/Apr/2018 14:59:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 24576
+- Broken pipe from ('192.168.30.86', 52387)
+[02/Apr/2018 14:59:03] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 21928
+- Broken pipe from ('192.168.30.86', 52389)
+[02/Apr/2018 14:59:03] "GET /static/js/search.js HTTP/1.1" 200 287
+[02/Apr/2018 14:59:03] "GET /static/image/lingdu.png HTTP/1.1" 200 8622
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 02, 2018 - 14:59:02
+Django version 1.9.5, using settings 'oa.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+Unhandled exception in thread started by <function wrapper at 0x7f8f1c6a8d70>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/oa/urls.py", line 29, in <module>
+    url(r'^no_attendance/', include('no_attendance.urls')),
+  File "/usr/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/no_attendance/urls.py", line 5, in <module>
+    from no_attendance.views import *
+  File "/home/oa/no_attendance/views.py", line 79
+    elif qj_type == '丧假':
+       ^
+IndentationError: expected an indented block
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+Unhandled exception in thread started by <function wrapper at 0x7f4a73325d70>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/oa/urls.py", line 29, in <module>
+    url(r'^no_attendance/', include('no_attendance.urls')),
+  File "/usr/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/no_attendance/urls.py", line 5, in <module>
+    from no_attendance.views import *
+  File "/home/oa/no_attendance/views.py", line 78
+    if allTime == 
+                 ^
+SyntaxError: invalid syntax
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+Unhandled exception in thread started by <function wrapper at 0x7faa04fedd70>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/site-packages/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/oa/urls.py", line 29, in <module>
+    url(r'^no_attendance/', include('no_attendance.urls')),
+  File "/usr/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/oa/no_attendance/urls.py", line 5, in <module>
+    from no_attendance.views import *
+  File "/home/oa/no_attendance/views.py", line 84
+    else:
+       ^
+IndentationError: expected an indented block
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/no_attendance/urls.py:16: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^backup/$', work_backup),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 02, 2018 - 15:09:15
+Django version 1.9.5, using settings 'oa.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/no_attendance/urls.py:16: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^backup/$', work_backup),
+
+[02/Apr/2018 15:13:12] "GET /no_attendance/leave/ HTTP/1.1" 200 20184
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/no_attendance/urls.py:16: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^backup/$', work_backup,name='导出'),
+
+Not Found: /favicon.ico
+[12/Apr/2018 09:16:42] "GET /favicon.ico HTTP/1.1" 404 2197
+[12/Apr/2018 09:26:13] "GET /no_attendance/record/ HTTP/1.1" 200 17916
+[12/Apr/2018 09:26:14] "GET /static/image/favicon.ico HTTP/1.1" 304 0
+[12/Apr/2018 09:26:14] "GET /static/image_enclosure/9-1523435345196.jpg HTTP/1.1" 304 0
+[12/Apr/2018 09:26:14] "GET /static/image/fontawesome-webfont.woff HTTP/1.1" 304 0
+[12/Apr/2018 10:24:07] "GET / HTTP/1.1" 200 4598
+Not Found: /media/image/favicon.ico
+[12/Apr/2018 10:24:13] "GET /media/image/favicon.ico HTTP/1.1" 404 2233
+[12/Apr/2018 10:24:26] "POST / HTTP/1.1" 302 0
+[12/Apr/2018 10:24:26] "GET /no_attendance/attendance/ HTTP/1.1" 200 15022
+[12/Apr/2018 10:24:28] "GET /no_attendance/todo/ HTTP/1.1" 200 21115
+[12/Apr/2018 10:24:28] "GET /static/image_enclosure/9-1523435345196.jpg HTTP/1.1" 304 0
+[12/Apr/2018 10:25:03] "GET /no_attendance/attendance/ HTTP/1.1" 200 15008
+[12/Apr/2018 10:25:07] "GET /static/image/sprite.png HTTP/1.1" 304 0
+[12/Apr/2018 10:25:36] "POST /no_attendance/attendance/ HTTP/1.1" 200 15048
+[12/Apr/2018 10:25:46] "GET /no_attendance/record/ HTTP/1.1" 200 18968
+[12/Apr/2018 10:32:08] "GET / HTTP/1.1" 200 4598
+[12/Apr/2018 10:32:08] "GET /static/js/jquery.validate.min.js HTTP/1.1" 200 21933
+[12/Apr/2018 10:32:08] "GET /static/js/jquery.backstretch.min.js HTTP/1.1" 200 4047
+[12/Apr/2018 10:32:08] "GET /static/css/login-soft.css HTTP/1.1" 200 2303
+[12/Apr/2018 10:32:08] "GET /static/js/login-soft.js HTTP/1.1" 200 6943
+[12/Apr/2018 10:32:08] "GET /static/image/css HTTP/1.1" 200 0
+[12/Apr/2018 10:32:09] "GET /static/image/bg-white-lock.png HTTP/1.1" 200 137
+[12/Apr/2018 10:32:09] "GET /static/image/syncfusion-icons-white.png HTTP/1.1" 200 5550
+[12/Apr/2018 10:32:09] "GET /static/image/sprite.png HTTP/1.1" 200 35400
+[12/Apr/2018 10:32:09] "GET /static/image/fontawesome-webfont.woff HTTP/1.1" 200 40960
+- Broken pipe from ('192.168.30.86', 65452)
+Not Found: /media/image/favicon.ico
+[12/Apr/2018 10:32:09] "GET /media/image/favicon.ico HTTP/1.1" 404 2233
+[12/Apr/2018 10:32:16] "POST / HTTP/1.1" 200 4603
+[12/Apr/2018 10:32:16] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[12/Apr/2018 10:32:16] "GET /static/css/style-metro.css HTTP/1.1" 200 13379
+[12/Apr/2018 10:32:16] "GET /static/css/style-responsive.css HTTP/1.1" 200 8951
+[12/Apr/2018 10:32:16] "GET /static/css/style.css HTTP/1.1" 200 24576
+- Broken pipe from ('192.168.30.86', 65463)
+[12/Apr/2018 10:32:16] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 21928
+- Broken pipe from ('192.168.30.86', 65461)
+Not Found: /favicon.ico
+[12/Apr/2018 10:32:16] "GET /favicon.ico HTTP/1.1" 404 2197
+Not Found: /favicon.ico
+[12/Apr/2018 10:32:16] "GET /favicon.ico HTTP/1.1" 404 2197
+[12/Apr/2018 10:32:23] "POST / HTTP/1.1" 302 0
+[12/Apr/2018 10:32:23] "GET /no_attendance/attendance/ HTTP/1.1" 200 15023
+[12/Apr/2018 10:32:23] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[12/Apr/2018 10:32:23] "GET /static/image/favicon.ico HTTP/1.1" 200 569
+[12/Apr/2018 10:32:26] "GET /no_attendance/attendance/ HTTP/1.1" 200 15023
+[12/Apr/2018 10:32:34] "POST /no_attendance/attendance/ HTTP/1.1" 200 15078
+[12/Apr/2018 10:32:40] "GET /no_attendance/record/ HTTP/1.1" 200 15321
+[12/Apr/2018 10:32:40] "GET /static/image_enclosure/hyd-1523439093802.png HTTP/1.1" 200 188714
+[12/Apr/2018 10:32:41] "GET /static/fj/sexyimages/black/bgSexy.png HTTP/1.1" 200 1085
+[12/Apr/2018 10:32:41] "GET /static/fj/sexyimages/black/buttons.png HTTP/1.1" 200 2134
+[12/Apr/2018 10:32:50] "GET /no_attendance/record/ HTTP/1.1" 200 15321
+[12/Apr/2018 10:32:50] "GET /static/css/style.css HTTP/1.1" 200 24576
+- Broken pipe from ('192.168.30.86', 65525)
+[12/Apr/2018 10:32:50] "GET /no_attendance/leave/ HTTP/1.1" 200 20379
+[12/Apr/2018 10:32:51] "GET /no_attendance/attendance/ HTTP/1.1" 200 15023
+[12/Apr/2018 10:32:59] "POST /no_attendance/attendance/ HTTP/1.1" 200 15078
+[12/Apr/2018 10:33:22] "POST /no_attendance/attendance/ HTTP/1.1" 200 15084
+[12/Apr/2018 10:33:22] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 24576
+- Broken pipe from ('192.168.30.86', 49171)
+[12/Apr/2018 10:33:44] "POST /no_attendance/attendance/ HTTP/1.1" 200 15078
+[12/Apr/2018 10:33:48] "GET /no_attendance/record/ HTTP/1.1" 200 15321
+[12/Apr/2018 10:33:49] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[12/Apr/2018 10:33:49] "GET /no_attendance/examination/ HTTP/1.1" 200 11774
+[12/Apr/2018 10:33:50] "GET /no_attendance/leave/ HTTP/1.1" 200 20379
+[12/Apr/2018 10:33:51] "GET /no_attendance/record/ HTTP/1.1" 200 15321
+[12/Apr/2018 10:34:20] "GET /no_attendance/attendance/ HTTP/1.1" 200 15008
+[12/Apr/2018 10:34:36] "POST /no_attendance/attendance/ HTTP/1.1" 200 15063
+[12/Apr/2018 10:34:53] "POST /no_attendance/attendance/ HTTP/1.1" 200 15048
+[12/Apr/2018 10:36:15] "POST /no_attendance/todo/ HTTP/1.1" 200 21210
+/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField OaLeaveLog.datetime received a naive datetime (2018-04-12 10:36:38) while time zone support is active.
+  RuntimeWarning)
+
+[12/Apr/2018 10:36:38] "POST /no_attendance/todo/ HTTP/1.1" 200 16218
+/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField OaLeaveLog.datetime received a naive datetime (2018-04-12 10:36:41) while time zone support is active.
+  RuntimeWarning)
+
+[12/Apr/2018 10:36:41] "POST /no_attendance/todo/ HTTP/1.1" 200 10496
+[12/Apr/2018 10:36:45] "GET /no_attendance/record/ HTTP/1.1" 200 21467
+Not Found: /no_attendance/record/undefined/black/loading.gif
+[12/Apr/2018 10:37:01] "GET /no_attendance/record/undefined/black/loading.gif HTTP/1.1" 404 3782
+[12/Apr/2018 10:37:07] "GET /no_attendance/record/ HTTP/1.1" 200 12229
+[12/Apr/2018 10:37:10] "GET /no_attendance/examination/ HTTP/1.1" 200 15289
+Not Found: /no_attendance/examination/undefined/black/loading.gif
+[12/Apr/2018 10:37:14] "GET /no_attendance/examination/undefined/black/loading.gif HTTP/1.1" 404 3797
+[12/Apr/2018 10:39:37] "GET /no_attendance/todo/ HTTP/1.1" 200 10481
+[12/Apr/2018 10:39:40] "GET /no_attendance/attendance/ HTTP/1.1" 200 15008
+[12/Apr/2018 10:39:41] "GET /no_attendance/leave/ HTTP/1.1" 200 20364
+[12/Apr/2018 10:42:43] "POST /no_attendance/leave/ HTTP/1.1" 200 20513
+[12/Apr/2018 10:42:52] "POST /no_attendance/leave/ HTTP/1.1" 200 20529
+[12/Apr/2018 10:42:58] "POST /no_attendance/leave/ HTTP/1.1" 200 20529
+[12/Apr/2018 10:43:04] "POST /no_attendance/leave/ HTTP/1.1" 200 20529
+[12/Apr/2018 10:43:13] "POST /no_attendance/leave/ HTTP/1.1" 200 20529
+[12/Apr/2018 10:43:23] "POST /no_attendance/leave/ HTTP/1.1" 200 20529
+[12/Apr/2018 10:43:34] "POST /no_attendance/leave/ HTTP/1.1" 200 20529
+[12/Apr/2018 10:43:48] "POST /no_attendance/leave/ HTTP/1.1" 200 20529
+[12/Apr/2018 10:46:35] "POST /no_attendance/leave/ HTTP/1.1" 200 20529
+[12/Apr/2018 10:47:46] "POST /no_attendance/leave/ HTTP/1.1" 200 20529
+[12/Apr/2018 10:47:52] "POST /no_attendance/leave/ HTTP/1.1" 200 20529
+[12/Apr/2018 10:48:00] "POST /no_attendance/leave/ HTTP/1.1" 200 20508
+[12/Apr/2018 10:48:08] "POST /no_attendance/leave/ HTTP/1.1" 200 20463
+[12/Apr/2018 10:48:42] "POST /no_attendance/leave/ HTTP/1.1" 200 20529
+[12/Apr/2018 10:48:48] "POST /no_attendance/leave/ HTTP/1.1" 200 20532
+[12/Apr/2018 10:48:56] "POST /no_attendance/leave/ HTTP/1.1" 200 20463
+[12/Apr/2018 10:49:07] "GET /no_attendance/record/ HTTP/1.1" 200 24545
+[12/Apr/2018 10:49:07] "GET /static/image_enclosure/010-1523501288536.jpg HTTP/1.1" 200 51569
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/no_attendance/urls.py:16: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^backup/$', work_backup,name='导出'),
+
+[17/Apr/2018 10:34:28] "GET /no_attendance/attendance/ HTTP/1.1" 200 15134
+[17/Apr/2018 10:34:29] "GET /no_attendance/todo/ HTTP/1.1" 200 10514
+[17/Apr/2018 10:34:32] "GET /no_attendance/record/ HTTP/1.1" 200 12229
+[17/Apr/2018 10:34:36] "GET /no_attendance/examination/ HTTP/1.1" 200 21280
+[17/Apr/2018 10:34:37] "GET /static/image_enclosure/9-1523930095677.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:34:37] "GET /static/image_enclosure/20180411-1523930095677.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:34:37] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523931848187.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:35:14] "GET / HTTP/1.1" 200 4598
+[17/Apr/2018 10:35:25] "POST / HTTP/1.1" 302 0
+[17/Apr/2018 10:35:25] "GET /no_attendance/attendance/ HTTP/1.1" 200 15129
+[17/Apr/2018 10:35:26] "GET /no_attendance/attendance/ HTTP/1.1" 200 15129
+[17/Apr/2018 10:35:27] "GET /no_attendance/todo/ HTTP/1.1" 200 33753
+[17/Apr/2018 10:35:27] "GET /static/image_enclosure/58c3ac2aa570f-1523931346737.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:35:27] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523931405926.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:35:27] "GET /static/image_enclosure/20180411-1523931986282.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:35:27] "GET /static/image_enclosure/%E8%83%8C%E6%99%AF%E5%9B%BE-1523931986282.jpg HTTP/1.1" 304 0
+/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField OaLeaveLog.datetime received a naive datetime (2018-04-17 10:35:40) while time zone support is active.
+  RuntimeWarning)
+
+[17/Apr/2018 10:35:40] "POST /no_attendance/todo/ HTTP/1.1" 200 27934
+[17/Apr/2018 10:35:42] "GET /no_attendance/todo/ HTTP/1.1" 200 27801
+/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField OaLeaveLog.datetime received a naive datetime (2018-04-17 10:35:49) while time zone support is active.
+  RuntimeWarning)
+
+[17/Apr/2018 10:35:49] "POST /no_attendance/todo/ HTTP/1.1" 200 22020
+[17/Apr/2018 10:35:51] "GET /no_attendance/todo/ HTTP/1.1" 200 21887
+/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField OaLeaveLog.datetime received a naive datetime (2018-04-17 10:35:54) while time zone support is active.
+  RuntimeWarning)
+
+[17/Apr/2018 10:35:54] "POST /no_attendance/todo/ HTTP/1.1" 200 16947
+[17/Apr/2018 10:35:56] "GET /no_attendance/todo/ HTTP/1.1" 200 16814
+[17/Apr/2018 10:35:56] "GET /static/image_enclosure/20180411-1523931986282.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:35:56] "GET /static/image_enclosure/%E8%83%8C%E6%99%AF%E5%9B%BE-1523931986282.jpg HTTP/1.1" 304 0
+/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField OaLeaveLog.datetime received a naive datetime (2018-04-17 10:36:01) while time zone support is active.
+  RuntimeWarning)
+
+[17/Apr/2018 10:36:01] "POST /no_attendance/todo/ HTTP/1.1" 200 10614
+[17/Apr/2018 10:36:03] "GET /no_attendance/todo/ HTTP/1.1" 200 10481
+[17/Apr/2018 10:36:05] "GET / HTTP/1.1" 200 4598
+[17/Apr/2018 10:36:19] "POST / HTTP/1.1" 302 0
+[17/Apr/2018 10:36:19] "GET /no_attendance/attendance/ HTTP/1.1" 200 15126
+[17/Apr/2018 10:36:21] "GET /no_attendance/todo/ HTTP/1.1" 200 36664
+/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField OaLeaveLog.datetime received a naive datetime (2018-04-17 10:36:29) while time zone support is active.
+  RuntimeWarning)
+
+[17/Apr/2018 10:36:29] "POST /no_attendance/todo/ HTTP/1.1" 200 30112
+[17/Apr/2018 10:36:30] "GET /static/image_enclosure/20180411-1523931986282.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:36:30] "GET /static/image_enclosure/%E8%83%8C%E6%99%AF%E5%9B%BE-1523931986282.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:36:31] "GET /no_attendance/todo/ HTTP/1.1" 200 29979
+/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField OaLeaveLog.datetime received a naive datetime (2018-04-17 10:36:34) while time zone support is active.
+  RuntimeWarning)
+
+[17/Apr/2018 10:36:34] "POST /no_attendance/todo/ HTTP/1.1" 200 23468
+[17/Apr/2018 10:36:36] "GET /no_attendance/todo/ HTTP/1.1" 200 23335
+/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField OaLeaveLog.datetime received a naive datetime (2018-04-17 10:36:40) while time zone support is active.
+  RuntimeWarning)
+
+[17/Apr/2018 10:36:40] "POST /no_attendance/todo/ HTTP/1.1" 200 16411
+[17/Apr/2018 10:36:41] "GET /no_attendance/todo/ HTTP/1.1" 200 16278
+/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField OaLeaveLog.datetime received a naive datetime (2018-04-17 10:36:45) while time zone support is active.
+  RuntimeWarning)
+
+[17/Apr/2018 10:36:45] "POST /no_attendance/todo/ HTTP/1.1" 200 10617
+[17/Apr/2018 10:36:47] "GET /no_attendance/todo/ HTTP/1.1" 200 10484
+[17/Apr/2018 10:36:50] "GET / HTTP/1.1" 200 4598
+[17/Apr/2018 10:36:56] "POST / HTTP/1.1" 302 0
+[17/Apr/2018 10:36:56] "GET /no_attendance/attendance/ HTTP/1.1" 200 15134
+[17/Apr/2018 10:36:59] "GET /no_attendance/todo/ HTTP/1.1" 200 39590
+[17/Apr/2018 10:36:59] "GET /static/image_enclosure/58c3ac2aa570f-1523931346737.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:36:59] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523931405926.jpg HTTP/1.1" 304 0
+/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField OaLeaveLog.datetime received a naive datetime (2018-04-17 10:37:05) while time zone support is active.
+  RuntimeWarning)
+
+[17/Apr/2018 10:37:05] "POST /no_attendance/todo/ HTTP/1.1" 200 32320
+[17/Apr/2018 10:37:05] "GET /static/image_enclosure/20180411-1523931986282.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:37:05] "GET /static/image_enclosure/%E8%83%8C%E6%99%AF%E5%9B%BE-1523931986282.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:37:07] "GET /no_attendance/todo/ HTTP/1.1" 200 32187
+/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField OaLeaveLog.datetime received a naive datetime (2018-04-17 10:37:09) while time zone support is active.
+  RuntimeWarning)
+
+[17/Apr/2018 10:37:09] "POST /no_attendance/todo/ HTTP/1.1" 200 24958
+[17/Apr/2018 10:37:10] "GET /no_attendance/todo/ HTTP/1.1" 200 24825
+/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField OaLeaveLog.datetime received a naive datetime (2018-04-17 10:37:13) while time zone support is active.
+  RuntimeWarning)
+
+[17/Apr/2018 10:37:13] "POST /no_attendance/todo/ HTTP/1.1" 200 18446
+[17/Apr/2018 10:37:16] "GET /no_attendance/todo/ HTTP/1.1" 200 18313
+/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField OaLeaveLog.datetime received a naive datetime (2018-04-17 10:37:18) while time zone support is active.
+  RuntimeWarning)
+
+[17/Apr/2018 10:37:18] "POST /no_attendance/todo/ HTTP/1.1" 200 10671
+[17/Apr/2018 10:37:20] "GET /no_attendance/todo/ HTTP/1.1" 200 10538
+[17/Apr/2018 10:37:21] "GET /no_attendance/todo/ HTTP/1.1" 200 10538
+[17/Apr/2018 10:37:32] "GET /no_attendance/record/ HTTP/1.1" 200 47776
+[17/Apr/2018 10:37:33] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/image/menu-toggler.png HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/image/lingdu.png HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/image_enclosure/9-1523930095677.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/image_enclosure/20180411-1523930095677.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/image_enclosure/%E8%83%8C%E6%99%AF%E5%9B%BE-1523931796415.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/image_enclosure/58c3ac2aa570f-1523931346737.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523931405926.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523931848187.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/fj/sexylightbox.css HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 10:37:33] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/fj/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/fj/global.css HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/fj/js/sexylightbox.v2.3.jquery.min.js HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/js/search.js HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/image_enclosure/20180411-1523931986282.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/image_enclosure/%E8%83%8C%E6%99%AF%E5%9B%BE-1523931986282.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/image/css HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/image/icon-color.png HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/image/icon-color-close.png HTTP/1.1" 304 0
+[17/Apr/2018 10:37:34] "GET /static/fj/sexyimages/black/buttons.png HTTP/1.1" 304 0
+[17/Apr/2018 10:37:35] "GET /static/fj/sexyimages/black/bgSexy.png HTTP/1.1" 304 0
+[17/Apr/2018 10:38:05] "GET /no_attendance/backup/ HTTP/1.1" 200 21042
+[17/Apr/2018 10:38:09] "POST /no_attendance/backup/ HTTP/1.1" 200 984
+[17/Apr/2018 10:39:46] "GET /no_attendance/record/ HTTP/1.1" 200 47776
+[17/Apr/2018 10:39:46] "GET /static/image_enclosure/%E8%83%8C%E6%99%AF%E5%9B%BE-1523931796415.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:39:46] "GET /static/image_enclosure/58c3ac2aa570f-1523931346737.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:39:46] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523931405926.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:39:46] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523931848187.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:39:46] "GET /static/image_enclosure/20180411-1523931986282.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:39:47] "GET /static/image_enclosure/%E8%83%8C%E6%99%AF%E5%9B%BE-1523931986282.jpg HTTP/1.1" 304 0
+[17/Apr/2018 10:39:50] "GET /no_attendance/leave/ HTTP/1.1" 200 20274
+[17/Apr/2018 10:40:24] "POST /no_attendance/leave/ HTTP/1.1" 200 20373
+[17/Apr/2018 14:12:44] "GET /no_attendance/record/ HTTP/1.1" 200 49820
+[17/Apr/2018 14:12:45] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523932824635.jpg HTTP/1.1" 200 463681
+[17/Apr/2018 14:12:45] "GET /static/image_enclosure/9-1523930095677.jpg HTTP/1.1" 304 0
+[17/Apr/2018 14:12:45] "GET /static/image_enclosure/20180411-1523930095677.jpg HTTP/1.1" 304 0
+[17/Apr/2018 14:12:45] "GET /static/image_enclosure/%E8%83%8C%E6%99%AF%E5%9B%BE-1523931796415.jpg HTTP/1.1" 304 0
+[17/Apr/2018 14:12:45] "GET /static/image_enclosure/58c3ac2aa570f-1523931346737.jpg HTTP/1.1" 304 0
+[17/Apr/2018 14:12:45] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523931848187.jpg HTTP/1.1" 304 0
+[17/Apr/2018 14:12:45] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523931405926.jpg HTTP/1.1" 304 0
+[17/Apr/2018 14:12:45] "GET /static/image_enclosure/20180411-1523931986282.jpg HTTP/1.1" 304 0
+[17/Apr/2018 14:12:45] "GET /static/image_enclosure/%E8%83%8C%E6%99%AF%E5%9B%BE-1523931986282.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:08:34] "GET /no_attendance/record/ HTTP/1.1" 200 49820
+[17/Apr/2018 15:08:34] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523932824635.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:08:34] "GET /static/image_enclosure/9-1523930095677.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:08:34] "GET /static/image_enclosure/20180411-1523930095677.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:08:34] "GET /static/image_enclosure/%E8%83%8C%E6%99%AF%E5%9B%BE-1523931796415.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:08:34] "GET /static/image_enclosure/58c3ac2aa570f-1523931346737.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:08:34] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523931405926.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:08:34] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523931848187.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:08:34] "GET /static/image_enclosure/20180411-1523931986282.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:08:34] "GET /static/image_enclosure/%E8%83%8C%E6%99%AF%E5%9B%BE-1523931986282.jpg HTTP/1.1" 304 0
+Not Found: /no_attendance/record/undefined/black/loading.gif
+[17/Apr/2018 15:10:05] "GET /no_attendance/record/undefined/black/loading.gif HTTP/1.1" 404 3782
+Not Found: /no_attendance/record/undefined/black/loading.gif
+[17/Apr/2018 15:10:09] "GET /no_attendance/record/undefined/black/loading.gif HTTP/1.1" 404 3782
+Not Found: /no_attendance/record/undefined/black/loading.gif
+[17/Apr/2018 15:10:39] "GET /no_attendance/record/undefined/black/loading.gif HTTP/1.1" 404 3782
+[17/Apr/2018 15:12:00] "GET /no_attendance/record/ HTTP/1.1" 200 49820
+[17/Apr/2018 15:12:07] "GET /no_attendance/attendance/ HTTP/1.1" 200 15120
+[17/Apr/2018 15:16:57] "GET /no_attendance/record/ HTTP/1.1" 200 49820
+[17/Apr/2018 15:22:10] "GET /no_attendance/attendance/ HTTP/1.1" 200 15120
+[17/Apr/2018 15:38:11] "GET /no_attendance/record/ HTTP/1.1" 200 49820
+[17/Apr/2018 15:38:11] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523932824635.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:38:11] "GET /static/image_enclosure/%E8%83%8C%E6%99%AF%E5%9B%BE-1523931796415.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:38:11] "GET /static/image_enclosure/58c3ac2aa570f-1523931346737.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:38:11] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523931405926.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:38:11] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523931848187.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:38:12] "GET /static/image_enclosure/20180411-1523931986282.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:38:12] "GET /static/image_enclosure/%E8%83%8C%E6%99%AF%E5%9B%BE-1523931986282.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:38:14] "GET /no_attendance/todo/ HTTP/1.1" 200 10481
+[17/Apr/2018 15:44:01] "GET /no_attendance/record/ HTTP/1.1" 200 49820
+[17/Apr/2018 15:44:01] "GET /static/image_enclosure/9-1523930095677.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:44:01] "GET /static/image_enclosure/20180411-1523930095677.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:44:30] "GET /no_attendance/backup/ HTTP/1.1" 200 21042
+[17/Apr/2018 15:55:51] "GET /no_attendance/backup/ HTTP/1.1" 200 21042
+Not Found: /favicon.ico
+[17/Apr/2018 15:57:28] "GET /favicon.ico HTTP/1.1" 404 2197
+Internal Server Error: /no_attendance/backup/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/oa/no_attendance/views.py", line 766, in work_backup
+    login_user = request.session['user']
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/sessions/backends/base.py", line 48, in __getitem__
+    return self._session[key]
+KeyError: 'user'
+[17/Apr/2018 15:57:30] "GET /no_attendance/backup/ HTTP/1.1" 500 63602
+Not Found: /favicon.ico
+[17/Apr/2018 15:57:31] "GET /favicon.ico HTTP/1.1" 404 2197
+[17/Apr/2018 15:57:47] "GET / HTTP/1.1" 200 4598
+[17/Apr/2018 15:57:47] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[17/Apr/2018 15:57:47] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 21928
+[17/Apr/2018 15:57:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 105942
+[17/Apr/2018 15:57:47] "GET /static/css/style-responsive.css HTTP/1.1" 200 8951
+[17/Apr/2018 15:57:47] "GET /static/css/default.css HTTP/1.1" 200 7204
+[17/Apr/2018 15:57:47] "GET /static/css/style-metro.css HTTP/1.1" 200 13379
+[17/Apr/2018 15:57:47] "GET /static/css/uniform.default.css HTTP/1.1" 200 10847
+[17/Apr/2018 15:57:47] "GET /static/css/style.css HTTP/1.1" 200 99970
+[17/Apr/2018 15:57:47] "GET /static/css/login-soft.css HTTP/1.1" 200 2303
+[17/Apr/2018 15:57:47] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 200 93068
+[17/Apr/2018 15:57:47] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 7200
+[17/Apr/2018 15:57:47] "GET /static/image/lingdu.png HTTP/1.1" 200 8622
+[17/Apr/2018 15:57:47] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 200 4525
+[17/Apr/2018 15:57:47] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 28538
+[17/Apr/2018 15:57:47] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 200 9595
+[17/Apr/2018 15:57:47] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 200 228147
+[17/Apr/2018 15:57:47] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 200 1301
+[17/Apr/2018 15:57:47] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 200 8308
+[17/Apr/2018 15:57:47] "GET /static/js/jquery.validate.min.js HTTP/1.1" 200 21933
+[17/Apr/2018 15:57:47] "GET /static/js/jquery.backstretch.min.js HTTP/1.1" 200 4047
+[17/Apr/2018 15:57:47] "GET /static/js/login-soft.js HTTP/1.1" 200 6943
+[17/Apr/2018 15:57:47] "GET /static/js/app.js HTTP/1.1" 200 33049
+[17/Apr/2018 15:57:47] "GET /static/image/css HTTP/1.1" 200 0
+[17/Apr/2018 15:57:47] "GET /static/image/fontawesome-webfont.eot HTTP/1.1" 200 37405
+[17/Apr/2018 15:57:47] "GET /static/image/bg-white-lock.png HTTP/1.1" 200 137
+[17/Apr/2018 15:57:47] "GET /static/image/syncfusion-icons-white.png HTTP/1.1" 200 5550
+[17/Apr/2018 15:57:47] "GET /static/js/excanvas.min.js HTTP/1.1" 200 19314
+[17/Apr/2018 15:57:48] "GET /static/js/respond.min.js HTTP/1.1" 200 4047
+[17/Apr/2018 15:57:48] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:57:48] "GET /static/image/sprite.png HTTP/1.1" 200 35400
+Not Found: /media/image/favicon.ico
+[17/Apr/2018 15:57:48] "GET /media/image/favicon.ico HTTP/1.1" 404 2233
+[17/Apr/2018 15:57:48] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:57:48] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:57:48] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 15:57:48] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 15:57:48] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 15:57:48] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:57:48] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:57:48] "GET /static/css/login-soft.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:00] "POST / HTTP/1.1" 302 0
+[17/Apr/2018 15:58:01] "GET /no_attendance/attendance/ HTTP/1.1" 200 15135
+[17/Apr/2018 15:58:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/image/lingdu.png HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 200 18420
+[17/Apr/2018 15:58:01] "GET /static/image/menu-toggler.png HTTP/1.1" 200 948
+[17/Apr/2018 15:58:01] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 200 114077
+[17/Apr/2018 15:58:01] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 200 37168
+[17/Apr/2018 15:58:01] "GET /static/js/search.js HTTP/1.1" 200 287
+[17/Apr/2018 15:58:01] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 200 22643
+[17/Apr/2018 15:58:01] "GET /static/image/css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/image/fontawesome-webfont.eot HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/image/remove-icon-small.png HTTP/1.1" 200 193
+[17/Apr/2018 15:58:01] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 200 567
+[17/Apr/2018 15:58:01] "GET /static/image/icon-color.png HTTP/1.1" 200 1240
+[17/Apr/2018 15:58:01] "GET /static/image/icon-color-close.png HTTP/1.1" 200 1031
+[17/Apr/2018 15:58:01] "GET /static/image/sprite.png HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/js/excanvas.min.js HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[17/Apr/2018 15:58:01] "GET /favicon.ico HTTP/1.1" 404 2197
+[17/Apr/2018 15:58:01] "GET /static/js/respond.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:01] "GET /static/image/favicon.ico HTTP/1.1" 200 569
+[17/Apr/2018 15:58:01] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:02] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:02] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:02] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:02] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:02] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:02] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:02] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /no_attendance/todo/ HTTP/1.1" 200 10484
+[17/Apr/2018 15:58:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/image/menu-toggler.png HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/image/lingdu.png HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/js/search.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/image/css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/fj/global.css HTTP/1.1" 200 5539
+[17/Apr/2018 15:58:15] "GET /static/fj/sexylightbox.css HTTP/1.1" 200 2522
+[17/Apr/2018 15:58:15] "GET /static/fj/js/jquery.easing.1.3.js HTTP/1.1" 200 8097
+[17/Apr/2018 15:58:15] "GET /static/fj/js/sexylightbox.v2.3.jquery.min.js HTTP/1.1" 200 25171
+[17/Apr/2018 15:58:15] "GET /static/image/fontawesome-webfont.eot HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/image/icon-color.png HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/image/icon-color-close.png HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/image/remove-icon-small.png HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/js/excanvas.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/js/respond.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:16] "GET /static/fj/sexyimages/black/bgSexy.png HTTP/1.1" 200 1085
+[17/Apr/2018 15:58:16] "GET /static/fj/sexyimages/black/buttons.png HTTP/1.1" 200 2134
+[17/Apr/2018 15:58:16] "GET /static/image/favicon.ico HTTP/1.1" 304 0
+[17/Apr/2018 15:58:16] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:16] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:16] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:16] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:16] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:16] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:16] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:16] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /no_attendance/todo/ HTTP/1.1" 200 10484
+[17/Apr/2018 15:58:59] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/image/css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/image/lingdu.png HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/image/menu-toggler.png HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/image/fontawesome-webfont.eot HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/image/remove-icon-small.png HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/image/icon-color.png HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/image/icon-color-close.png HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/js/excanvas.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/js/respond.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:58:59] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/js/search.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/fj/global.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/fj/sexylightbox.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/fj/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/fj/js/sexylightbox.v2.3.jquery.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/fj/sexyimages/black/bgSexy.png HTTP/1.1" 304 0
+[17/Apr/2018 15:59:00] "GET /static/fj/sexyimages/black/buttons.png HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET / HTTP/1.1" 200 4598
+[17/Apr/2018 15:59:09] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/css/login-soft.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/image/lingdu.png HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/js/jquery.backstretch.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/js/login-soft.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/js/jquery.validate.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/image/css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/image/fontawesome-webfont.eot HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/image/syncfusion-icons-white.png HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/image/bg-white-lock.png HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/js/excanvas.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/js/respond.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/image/sprite.png HTTP/1.1" 304 0
+Not Found: /media/image/favicon.ico
+[17/Apr/2018 15:59:09] "GET /media/image/favicon.ico HTTP/1.1" 404 2233
+[17/Apr/2018 15:59:09] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:09] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:10] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:10] "GET /static/css/login-soft.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "POST / HTTP/1.1" 200 4603
+[17/Apr/2018 15:59:18] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/css/login-soft.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/image/lingdu.png HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/js/jquery.validate.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/js/jquery.backstretch.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/js/login-soft.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/image/css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/image/fontawesome-webfont.eot HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/image/syncfusion-icons-white.png HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/image/bg-white-lock.png HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/js/excanvas.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/js/respond.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/image/sprite.png HTTP/1.1" 304 0
+Not Found: /media/image/favicon.ico
+[17/Apr/2018 15:59:18] "GET /media/image/favicon.ico HTTP/1.1" 404 2233
+[17/Apr/2018 15:59:18] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:18] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:19] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:19] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:19] "GET /static/css/login-soft.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "POST / HTTP/1.1" 302 0
+[17/Apr/2018 15:59:30] "GET /no_attendance/attendance/ HTTP/1.1" 200 15135
+[17/Apr/2018 15:59:30] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/image/lingdu.png HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/image/menu-toggler.png HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/js/search.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/image/css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/image/fontawesome-webfont.eot HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/image/sprite.png HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/image/remove-icon-small.png HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/image/icon-color.png HTTP/1.1" 304 0
+[17/Apr/2018 15:59:30] "GET /static/image/icon-color-close.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[17/Apr/2018 15:59:31] "GET /favicon.ico HTTP/1.1" 404 2197
+[17/Apr/2018 15:59:31] "GET /static/js/excanvas.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:31] "GET /static/js/respond.min.js HTTP/1.1" 304 0
+[17/Apr/2018 15:59:31] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:31] "GET /static/image/favicon.ico HTTP/1.1" 304 0
+[17/Apr/2018 15:59:31] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:31] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:32] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:32] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:32] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:32] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:32] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:32] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 15:59:43] "GET / HTTP/1.1" 200 4598
+[17/Apr/2018 15:59:43] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[17/Apr/2018 15:59:43] "GET /static/css/style-metro.css HTTP/1.1" 200 13379
+[17/Apr/2018 15:59:43] "GET /static/css/style-responsive.css HTTP/1.1" 200 8951
+[17/Apr/2018 15:59:43] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 21928
+[17/Apr/2018 15:59:43] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 105942
+[17/Apr/2018 15:59:43] "GET /static/css/style.css HTTP/1.1" 200 99970
+[17/Apr/2018 15:59:43] "GET /static/css/default.css HTTP/1.1" 200 7204
+[17/Apr/2018 15:59:43] "GET /static/css/uniform.default.css HTTP/1.1" 200 10847
+[17/Apr/2018 15:59:43] "GET /static/css/login-soft.css HTTP/1.1" 200 2303
+[17/Apr/2018 15:59:43] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 200 93068
+[17/Apr/2018 15:59:43] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 7200
+[17/Apr/2018 15:59:43] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 200 4525
+[17/Apr/2018 15:59:43] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 200 9595
+[17/Apr/2018 15:59:43] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 28538
+[17/Apr/2018 15:59:43] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 200 1301
+[17/Apr/2018 15:59:43] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 200 228147
+[17/Apr/2018 15:59:43] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 200 8308
+[17/Apr/2018 15:59:43] "GET /static/js/jquery.backstretch.min.js HTTP/1.1" 200 4047
+[17/Apr/2018 15:59:43] "GET /static/js/jquery.validate.min.js HTTP/1.1" 200 21933
+[17/Apr/2018 15:59:43] "GET /static/js/app.js HTTP/1.1" 200 33049
+[17/Apr/2018 15:59:43] "GET /static/image/css HTTP/1.1" 200 0
+[17/Apr/2018 15:59:43] "GET /static/js/login-soft.js HTTP/1.1" 200 6943
+[17/Apr/2018 15:59:43] "GET /static/image/lingdu.png HTTP/1.1" 200 8622
+[17/Apr/2018 15:59:43] "GET /static/image/bg-white-lock.png HTTP/1.1" 200 137
+[17/Apr/2018 15:59:43] "GET /static/image/fontawesome-webfont.woff HTTP/1.1" 200 43572
+[17/Apr/2018 15:59:43] "GET /static/image/syncfusion-icons-white.png HTTP/1.1" 200 5550
+[17/Apr/2018 15:59:44] "GET /static/image/sprite.png HTTP/1.1" 200 35400
+[17/Apr/2018 15:59:54] "POST / HTTP/1.1" 302 0
+[17/Apr/2018 15:59:54] "GET /no_attendance/attendance/ HTTP/1.1" 200 15135
+[17/Apr/2018 15:59:54] "GET /static/image/menu-toggler.png HTTP/1.1" 200 948
+[17/Apr/2018 15:59:54] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 200 18420
+[17/Apr/2018 15:59:54] "GET /static/js/search.js HTTP/1.1" 200 287
+[17/Apr/2018 15:59:54] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 200 37168
+[17/Apr/2018 15:59:54] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 200 22643
+[17/Apr/2018 15:59:54] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 200 114077
+[17/Apr/2018 15:59:54] "GET /static/image/icon-color.png HTTP/1.1" 200 1240
+[17/Apr/2018 15:59:54] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 200 567
+[17/Apr/2018 15:59:54] "GET /static/image/icon-color-close.png HTTP/1.1" 200 1031
+[17/Apr/2018 16:00:08] "GET /no_attendance/todo/ HTTP/1.1" 200 10484
+[17/Apr/2018 16:00:08] "GET /static/fj/global.css HTTP/1.1" 200 5539
+[17/Apr/2018 16:00:08] "GET /static/fj/sexylightbox.css HTTP/1.1" 200 2522
+[17/Apr/2018 16:00:08] "GET /static/fj/js/jquery.easing.1.3.js HTTP/1.1" 200 8097
+[17/Apr/2018 16:00:08] "GET /static/fj/js/sexylightbox.v2.3.jquery.min.js HTTP/1.1" 200 25171
+[17/Apr/2018 16:00:08] "GET /static/fj/sexyimages/black/bgSexy.png HTTP/1.1" 200 1085
+[17/Apr/2018 16:00:08] "GET /static/fj/sexyimages/black/buttons.png HTTP/1.1" 200 2134
+[17/Apr/2018 16:00:10] "GET /no_attendance/attendance/ HTTP/1.1" 200 15135
+[17/Apr/2018 16:00:42] "POST /no_attendance/attendance/ HTTP/1.1" 200 15172
+[17/Apr/2018 16:00:47] "GET /no_attendance/leave/ HTTP/1.1" 200 20289
+[17/Apr/2018 16:01:33] "POST /no_attendance/leave/ HTTP/1.1" 200 20406
+[17/Apr/2018 16:04:33] "GET /no_attendance/attendance/ HTTP/1.1" 200 15120
+[17/Apr/2018 16:05:23] "GET /no_attendance/useradd/ HTTP/1.1" 200 17724
+[17/Apr/2018 16:05:23] "GET /static/useradd/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:23] "GET /static/useradd/js/jquery.artDialog.js?skin=idialog HTTP/1.1" 304 0
+[17/Apr/2018 16:05:23] "GET /static/useradd/js/jQuery.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:24] "GET /static/useradd/js/skins/idialog.css?4.1.7 HTTP/1.1" 304 0
+[17/Apr/2018 16:05:24] "GET /static/useradd/js/skins/idialog/idialog_s.png HTTP/1.1" 304 0
+[17/Apr/2018 16:05:33] "GET /no_attendance/modify/ HTTP/1.1" 200 16641
+[17/Apr/2018 16:05:56] "GET /no_attendance/attendance/ HTTP/1.1" 200 15135
+[17/Apr/2018 16:05:56] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/image/css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/image/lingdu.png HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/image/menu-toggler.png HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/image/fontawesome-webfont.eot HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/image/sprite.png HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/image/icon-color-close.png HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/image/remove-icon-small.png HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/image/icon-color.png HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/js/excanvas.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/js/respond.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:56] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:57] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:57] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:57] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:57] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:57] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:57] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:57] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:57] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:57] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:57] "GET /static/js/search.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:57] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:57] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:57] "GET /no_attendance/useradd/ HTTP/1.1" 200 17724
+[17/Apr/2018 16:05:59] "GET /no_attendance/attendance/ HTTP/1.1" 200 15135
+[17/Apr/2018 16:05:59] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/image/css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/image/lingdu.png HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/image/menu-toggler.png HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/image/fontawesome-webfont.eot HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/image/remove-icon-small.png HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/image/icon-color.png HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/image/sprite.png HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/image/icon-color-close.png HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/js/excanvas.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/js/respond.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:05:59] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 16:06:00] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:06:00] "GET /static/js/search.js HTTP/1.1" 304 0
+[17/Apr/2018 16:06:00] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:06:00] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 16:06:15] "POST /no_attendance/useradd/ HTTP/1.1" 200 17623
+[17/Apr/2018 16:06:37] "POST /no_attendance/leave/ HTTP/1.1" 200 20427
+[17/Apr/2018 16:07:07] "POST /no_attendance/leave/ HTTP/1.1" 200 20388
+[17/Apr/2018 16:07:48] "GET /no_attendance/examination/ HTTP/1.1" 200 11774
+[17/Apr/2018 16:07:50] "GET /no_attendance/record/ HTTP/1.1" 200 14196
+[17/Apr/2018 16:07:53] "GET /no_attendance/backup/ HTTP/1.1" 200 21045
+[17/Apr/2018 16:07:59] "GET /no_attendance/examination/ HTTP/1.1" 200 11774
+[17/Apr/2018 16:08:01] "GET /no_attendance/record/ HTTP/1.1" 200 14196
+[17/Apr/2018 16:08:23] "GET /no_attendance/attendance/ HTTP/1.1" 200 15135
+[17/Apr/2018 16:08:24] "GET / HTTP/1.1" 200 4598
+[17/Apr/2018 16:08:24] "GET /no_attendance/leave/ HTTP/1.1" 200 20289
+[17/Apr/2018 16:08:35] "POST / HTTP/1.1" 302 0
+[17/Apr/2018 16:08:35] "GET /no_attendance/attendance/ HTTP/1.1" 200 15129
+[17/Apr/2018 16:08:37] "GET /no_attendance/todo/ HTTP/1.1" 200 18865
+/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField OaLeaveLog.datetime received a naive datetime (2018-04-17 16:08:48) while time zone support is active.
+  RuntimeWarning)
+
+[17/Apr/2018 16:08:48] "POST /no_attendance/todo/ HTTP/1.1" 200 14965
+[17/Apr/2018 16:08:49] "GET /no_attendance/todo/ HTTP/1.1" 200 14832
+/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField OaLeaveLog.datetime received a naive datetime (2018-04-17 16:09:05) while time zone support is active.
+  RuntimeWarning)
+
+[17/Apr/2018 16:09:05] "POST /no_attendance/todo/ HTTP/1.1" 200 10614
+[17/Apr/2018 16:09:09] "GET /no_attendance/todo/ HTTP/1.1" 200 10481
+[17/Apr/2018 16:09:09] "POST /no_attendance/leave/ HTTP/1.1" 200 20433
+[17/Apr/2018 16:09:28] "GET /no_attendance/attendance/ HTTP/1.1" 200 15135
+[17/Apr/2018 16:09:28] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/image/css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/image/lingdu.png HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/image/menu-toggler.png HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/image/fontawesome-webfont.eot HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/image/icon-color-close.png HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/image/sprite.png HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/image/remove-icon-small.png HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/image/icon-color.png HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/js/excanvas.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/js/respond.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:28] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:29] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:29] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:29] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:29] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:29] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:29] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:29] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:29] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:29] "GET /static/js/search.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:29] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:29] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:29] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:29] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /no_attendance/attendance/ HTTP/1.1" 200 15135
+[17/Apr/2018 16:09:56] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/image/css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/image/lingdu.png HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/image/menu-toggler.png HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/image/fontawesome-webfont.eot HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/image/sprite.png HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/image/icon-color.png HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/image/remove-icon-small.png HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/image/icon-color-close.png HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/js/excanvas.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/js/respond.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:56] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:57] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:57] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:57] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:57] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:57] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:57] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:57] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:57] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:57] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:57] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:57] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:57] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:57] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:57] "GET /static/js/search.js HTTP/1.1" 304 0
+[17/Apr/2018 16:09:57] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:57] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:09:57] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /no_attendance/attendance/ HTTP/1.1" 200 15135
+[17/Apr/2018 16:10:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/image/css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/image/lingdu.png HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/image/menu-toggler.png HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/image/fontawesome-webfont.eot HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/image/remove-icon-small.png HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/image/icon-color-close.png HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/image/icon-color.png HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/image/sprite.png HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/js/excanvas.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/js/respond.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:01] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:02] "GET /static/js/search.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:02] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:02] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:03] "POST /no_attendance/leave/ HTTP/1.1" 200 20409
+[17/Apr/2018 16:10:07] "GET /no_attendance/attendance/ HTTP/1.1" 200 15135
+[17/Apr/2018 16:10:07] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/image/css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/image/lingdu.png HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/image/menu-toggler.png HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/image/fontawesome-webfont.eot HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/image/sprite.png HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/image/icon-color-close.png HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/image/icon-color.png HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/image/remove-icon-small.png HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/js/excanvas.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/js/respond.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:07] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:08] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:08] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:08] "GET /static/js/search.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:08] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:08] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /no_attendance/attendance/ HTTP/1.1" 200 15135
+[17/Apr/2018 16:10:11] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/image/lingdu.png HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/image/menu-toggler.png HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/js/search.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/image/css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/image/fontawesome-webfont.eot HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/image/sprite.png HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/image/remove-icon-small.png HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/image/icon-color-close.png HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/image/icon-color.png HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/js/excanvas.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/js/respond.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/image/favicon.ico HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:11] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:12] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:12] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:12] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:10:12] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:12] "POST /no_attendance/leave/ HTTP/1.1" 200 20388
+[17/Apr/2018 16:11:15] "GET /no_attendance/attendance/ HTTP/1.1" 200 15135
+[17/Apr/2018 16:11:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/image/css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/image/menu-toggler.png HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/image/lingdu.png HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/image/fontawesome-webfont.eot HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/image/remove-icon-small.png HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/image/icon-color-close.png HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/image/sprite.png HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/image/icon-color.png HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /no_attendance/attendance/ HTTP/1.1" 200 15135
+[17/Apr/2018 16:11:15] "GET /no_attendance/attendance/ HTTP/1.1" 200 15135
+[17/Apr/2018 16:11:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/image/css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/image/lingdu.png HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/image/menu-toggler.png HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/image/fontawesome-webfont.eot HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/image/icon-color.png HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/image/remove-icon-small.png HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/image/sprite.png HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/image/icon-color-close.png HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:11:15] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/js/excanvas.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/js/respond.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/js/search.js HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:11:16] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:29] "POST /no_attendance/leave/ HTTP/1.1" 200 20421
+Not Found: /favicon.ico
+[17/Apr/2018 16:13:31] "GET /favicon.ico HTTP/1.1" 404 2197
+[17/Apr/2018 16:13:33] "GET / HTTP/1.1" 200 4598
+[17/Apr/2018 16:13:33] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:33] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:33] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:33] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:33] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:33] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:33] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:33] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:33] "GET /static/css/login-soft.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:33] "GET /static/image/lingdu.png HTTP/1.1" 304 0
+[17/Apr/2018 16:13:33] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:33] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:33] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:33] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:33] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:33] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:33] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/js/jquery.validate.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/js/jquery.backstretch.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/js/login-soft.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/image/css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/image/fontawesome-webfont.eot HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/image/bg-white-lock.png HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/image/syncfusion-icons-white.png HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/js/excanvas.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/js/respond.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/image/sprite.png HTTP/1.1" 304 0
+Not Found: /media/image/favicon.ico
+[17/Apr/2018 16:13:34] "GET /media/image/favicon.ico HTTP/1.1" 404 2233
+[17/Apr/2018 16:13:34] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:34] "GET /static/css/login-soft.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:37] "GET / HTTP/1.1" 200 4598
+[17/Apr/2018 16:13:37] "GET /static/image/lingdu.png HTTP/1.1" 200 8622
+Not Found: /media/image/favicon.ico
+[17/Apr/2018 16:13:38] "GET /media/image/favicon.ico HTTP/1.1" 404 2233
+[17/Apr/2018 16:13:45] "POST / HTTP/1.1" 302 0
+[17/Apr/2018 16:13:45] "GET /no_attendance/attendance/ HTTP/1.1" 200 15135
+[17/Apr/2018 16:13:45] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/image/lingdu.png HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/image/menu-toggler.png HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/js/app.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/js/search.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/image/css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/image/fontawesome-webfont.eot HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/image/remove-icon-small.png HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/image/icon-color.png HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/image/icon-color-close.png HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/image/sprite.png HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/js/excanvas.min.js HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[17/Apr/2018 16:13:45] "GET /favicon.ico HTTP/1.1" 404 2197
+[17/Apr/2018 16:13:45] "GET /static/js/respond.min.js HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/image/favicon.ico HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:45] "GET /static/css/style-metro.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:46] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:46] "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:46] "GET /static/css/default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:46] "GET /static/css/uniform.default.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:46] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 304 0
+[17/Apr/2018 16:13:51] "POST / HTTP/1.1" 200 4603
+Not Found: /favicon.ico
+[17/Apr/2018 16:13:51] "GET /favicon.ico HTTP/1.1" 404 2197
+[17/Apr/2018 16:13:53] "GET /no_attendance/todo/ HTTP/1.1" 200 10484
+[17/Apr/2018 16:13:55] "GET /no_attendance/attendance/ HTTP/1.1" 200 15135
+[17/Apr/2018 16:13:57] "GET /no_attendance/leave/ HTTP/1.1" 200 20289
+[17/Apr/2018 16:13:59] "POST / HTTP/1.1" 302 0
+[17/Apr/2018 16:13:59] "GET /no_attendance/attendance/ HTTP/1.1" 200 15120
+[17/Apr/2018 16:13:59] "GET /static/js/search.js HTTP/1.1" 200 287
+Internal Server Error: /no_attendance/backup/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/oa/no_attendance/views.py", line 766, in work_backup
+    login_user = request.session['user']
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/sessions/backends/base.py", line 48, in __getitem__
+    return self._session[key]
+KeyError: 'user'
+[17/Apr/2018 16:14:04] "GET /no_attendance/backup/ HTTP/1.1" 500 63630
+[17/Apr/2018 16:14:05] "GET /no_attendance/useradd/ HTTP/1.1" 200 17630
+[17/Apr/2018 16:14:05] "GET /static/useradd/js/jquery.artDialog.js?skin=idialog HTTP/1.1" 200 16114
+[17/Apr/2018 16:14:05] "GET /static/useradd/css/style.css HTTP/1.1" 200 82444
+[17/Apr/2018 16:14:05] "GET /static/useradd/js/jQuery.js HTTP/1.1" 200 94839
+[17/Apr/2018 16:14:05] "GET /static/useradd/js/skins/idialog.css?4.1.7 HTTP/1.1" 200 6736
+[17/Apr/2018 16:14:05] "GET /static/useradd/js/skins/idialog/idialog_s.png HTTP/1.1" 200 3811
+[17/Apr/2018 16:14:10] "GET / HTTP/1.1" 200 4598
+[17/Apr/2018 16:14:10] "GET /static/css/style-metro.css HTTP/1.1" 200 13379
+[17/Apr/2018 16:14:10] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[17/Apr/2018 16:14:10] "GET /static/css/style-responsive.css HTTP/1.1" 200 8951
+[17/Apr/2018 16:14:10] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 21928
+[17/Apr/2018 16:14:10] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 105942
+[17/Apr/2018 16:14:10] "GET /static/css/uniform.default.css HTTP/1.1" 200 10847
+[17/Apr/2018 16:14:10] "GET /static/css/default.css HTTP/1.1" 200 7204
+[17/Apr/2018 16:14:10] "GET /static/css/style.css HTTP/1.1" 200 99970
+[17/Apr/2018 16:14:10] "GET /static/css/login-soft.css HTTP/1.1" 200 2303
+[17/Apr/2018 16:14:10] "GET /static/image/lingdu.png HTTP/1.1" 200 8622
+[17/Apr/2018 16:14:10] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 7200
+[17/Apr/2018 16:14:10] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 200 9595
+[17/Apr/2018 16:14:10] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 200 4525
+[17/Apr/2018 16:14:10] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 28538
+[17/Apr/2018 16:14:10] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 200 93068
+[17/Apr/2018 16:14:10] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 200 1301
+[17/Apr/2018 16:14:10] "GET /static/js/jquery.validate.min.js HTTP/1.1" 200 21933
+[17/Apr/2018 16:14:10] "GET /static/js/jquery.backstretch.min.js HTTP/1.1" 200 4047
+[17/Apr/2018 16:14:10] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 200 8308
+[17/Apr/2018 16:14:10] "GET /static/js/app.js HTTP/1.1" 200 33049
+[17/Apr/2018 16:14:10] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 200 228147
+[17/Apr/2018 16:14:10] "GET /static/js/login-soft.js HTTP/1.1" 200 6943
+[17/Apr/2018 16:14:10] "GET /static/image/css HTTP/1.1" 200 0
+[17/Apr/2018 16:14:11] "GET /static/image/bg-white-lock.png HTTP/1.1" 200 137
+[17/Apr/2018 16:14:11] "GET /static/image/fontawesome-webfont.woff HTTP/1.1" 200 43572
+[17/Apr/2018 16:14:11] "GET /static/image/syncfusion-icons-white.png HTTP/1.1" 200 5550
+[17/Apr/2018 16:14:12] "GET /static/image/sprite.png HTTP/1.1" 200 35400
+[17/Apr/2018 16:14:36] "POST / HTTP/1.1" 302 0
+[17/Apr/2018 16:14:36] "GET /no_attendance/attendance/ HTTP/1.1" 200 15135
+[17/Apr/2018 16:14:36] "GET /static/image/menu-toggler.png HTTP/1.1" 200 948
+[17/Apr/2018 16:14:36] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 200 18420
+[17/Apr/2018 16:14:36] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 200 37168
+[17/Apr/2018 16:14:36] "GET /static/js/search.js HTTP/1.1" 200 287
+[17/Apr/2018 16:14:36] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 200 22643
+[17/Apr/2018 16:14:36] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 200 114077
+[17/Apr/2018 16:14:36] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 200 567
+[17/Apr/2018 16:14:36] "GET /static/image/icon-color.png HTTP/1.1" 200 1240
+[17/Apr/2018 16:14:36] "GET /static/image/icon-color-close.png HTTP/1.1" 200 1031
+[17/Apr/2018 16:14:42] "POST /no_attendance/useradd/ HTTP/1.1" 200 17271
+[17/Apr/2018 16:14:46] "GET /no_attendance/modify/ HTTP/1.1" 200 17610
+[17/Apr/2018 16:14:46] "GET /static/useradd/js/skins/idialog.css?4.1.7 HTTP/1.1" 200 6736
+[17/Apr/2018 16:15:04] "POST /no_attendance/modify/ HTTP/1.1" 200 17585
+[17/Apr/2018 16:15:19] "GET /no_attendance/leave/ HTTP/1.1" 200 20289
+[17/Apr/2018 16:19:53] "GET /no_attendance/todo/ HTTP/1.1" 200 10481
+[17/Apr/2018 16:19:55] "GET /no_attendance/attendance/ HTTP/1.1" 200 15120
+[17/Apr/2018 16:19:55] "GET /no_attendance/leave/ HTTP/1.1" 200 20274
+[17/Apr/2018 16:19:56] "GET / HTTP/1.1" 200 4598
+[17/Apr/2018 16:20:06] "POST / HTTP/1.1" 302 0
+[17/Apr/2018 16:20:06] "GET /no_attendance/attendance/ HTTP/1.1" 200 15126
+[17/Apr/2018 16:20:10] "GET /no_attendance/leave/ HTTP/1.1" 200 20280
+[17/Apr/2018 16:20:28] "GET /no_attendance/record/ HTTP/1.1" 200 49820
+[17/Apr/2018 16:20:28] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523932824635.jpg HTTP/1.1" 304 0
+[17/Apr/2018 16:20:28] "GET /static/image_enclosure/9-1523930095677.jpg HTTP/1.1" 304 0
+[17/Apr/2018 16:20:28] "GET /static/image_enclosure/20180411-1523930095677.jpg HTTP/1.1" 304 0
+[17/Apr/2018 16:20:28] "GET /static/image_enclosure/%E8%83%8C%E6%99%AF%E5%9B%BE-1523931796415.jpg HTTP/1.1" 304 0
+[17/Apr/2018 16:20:28] "GET /static/image_enclosure/58c3ac2aa570f-1523931346737.jpg HTTP/1.1" 304 0
+[17/Apr/2018 16:20:28] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523931405926.jpg HTTP/1.1" 304 0
+[17/Apr/2018 16:20:28] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523931848187.jpg HTTP/1.1" 304 0
+[17/Apr/2018 16:20:28] "GET /static/image_enclosure/20180411-1523931986282.jpg HTTP/1.1" 304 0
+[17/Apr/2018 16:20:28] "GET /static/image_enclosure/%E8%83%8C%E6%99%AF%E5%9B%BE-1523931986282.jpg HTTP/1.1" 304 0
+Not Found: /no_attendance/record/undefined/black/loading.gif
+[17/Apr/2018 16:20:29] "GET /no_attendance/record/undefined/black/loading.gif HTTP/1.1" 404 3782
+[17/Apr/2018 16:20:52] "GET / HTTP/1.1" 200 4598
+[17/Apr/2018 16:20:59] "POST / HTTP/1.1" 200 4606
+[17/Apr/2018 16:21:09] "POST / HTTP/1.1" 302 0
+[17/Apr/2018 16:21:09] "GET /no_attendance/attendance/ HTTP/1.1" 200 15120
+[17/Apr/2018 16:21:11] "GET /no_attendance/attendance/ HTTP/1.1" 200 15120
+[17/Apr/2018 16:21:12] "GET /no_attendance/leave/ HTTP/1.1" 200 20274
+[17/Apr/2018 16:21:13] "GET /no_attendance/todo/ HTTP/1.1" 200 15677
+[17/Apr/2018 16:21:13] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523932824635.jpg HTTP/1.1" 200 463681
+[17/Apr/2018 16:25:08] "POST /no_attendance/leave/ HTTP/1.1" 200 20397
+[17/Apr/2018 16:25:34] "GET /no_attendance/record/ HTTP/1.1" 200 12229
+[17/Apr/2018 16:25:34] "GET /static/fj/global.css HTTP/1.1" 200 5539
+[17/Apr/2018 16:25:34] "GET /static/fj/sexylightbox.css HTTP/1.1" 200 2522
+[17/Apr/2018 16:25:34] "GET /static/fj/js/jquery.easing.1.3.js HTTP/1.1" 200 8097
+[17/Apr/2018 16:25:34] "GET /static/fj/js/sexylightbox.v2.3.jquery.min.js HTTP/1.1" 200 25171
+[17/Apr/2018 16:25:34] "GET /static/fj/sexyimages/black/bgSexy.png HTTP/1.1" 200 1085
+[17/Apr/2018 16:25:34] "GET /static/fj/sexyimages/black/buttons.png HTTP/1.1" 200 2134
+[17/Apr/2018 16:25:36] "GET /no_attendance/leave/ HTTP/1.1" 200 20280
+[17/Apr/2018 16:26:57] "GET /no_attendance/attendance/ HTTP/1.1" 200 15126
+[17/Apr/2018 16:27:23] "GET /no_attendance/attendance/ HTTP/1.1" 200 15120
+[17/Apr/2018 16:27:28] "POST /no_attendance/attendance/ HTTP/1.1" 200 15163
+[17/Apr/2018 16:27:34] "GET /no_attendance/attendance/ HTTP/1.1" 200 15126
+[17/Apr/2018 16:27:36] "GET /no_attendance/todo/ HTTP/1.1" 200 10484
+[17/Apr/2018 16:27:37] "GET /no_attendance/leave/ HTTP/1.1" 200 20280
+[17/Apr/2018 16:28:30] "POST /no_attendance/leave/ HTTP/1.1" 200 20379
+[17/Apr/2018 16:28:44] "GET /no_attendance/leave/ HTTP/1.1" 200 20274
+[17/Apr/2018 16:30:57] "GET /no_attendance/leave/ HTTP/1.1" 200 20280
+[17/Apr/2018 16:35:58] "GET /no_attendance/record/ HTTP/1.1" 200 14203
+[17/Apr/2018 16:37:45] "GET /no_attendance/leave/ HTTP/1.1" 200 20280
+[17/Apr/2018 16:38:26] "POST /no_attendance/leave/ HTTP/1.1" 200 20412
+[17/Apr/2018 16:39:43] "POST /no_attendance/leave/ HTTP/1.1" 200 20379
+[17/Apr/2018 16:39:46] "GET /no_attendance/record/ HTTP/1.1" 200 16313
+[17/Apr/2018 16:39:46] "GET /static/image_enclosure/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180417163654-1523954383421.jpg HTTP/1.1" 200 198739
+[17/Apr/2018 16:39:55] "GET /no_attendance/leave/ HTTP/1.1" 200 20280
+[17/Apr/2018 16:40:28] "POST /no_attendance/leave/ HTTP/1.1" 200 20397
+[17/Apr/2018 16:40:56] "POST /no_attendance/leave/ HTTP/1.1" 200 20427
+[17/Apr/2018 16:41:24] "GET /no_attendance/todo/ HTTP/1.1" 200 29300
+[17/Apr/2018 16:41:25] "GET /static/image_enclosure/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180417163654-1523954383421.jpg HTTP/1.1" 200 198739
+[17/Apr/2018 16:41:29] "POST /no_attendance/leave/ HTTP/1.1" 200 20427
+[17/Apr/2018 16:45:29] "GET /no_attendance/leave/ HTTP/1.1" 200 20274
+[17/Apr/2018 16:57:35] "POST /no_attendance/leave/ HTTP/1.1" 200 20418
+[17/Apr/2018 16:57:57] "POST /no_attendance/leave/ HTTP/1.1" 200 20418
+[17/Apr/2018 17:03:59] "GET /no_attendance/backup/ HTTP/1.1" 200 21045
+[17/Apr/2018 17:04:29] "POST /no_attendance/backup/ HTTP/1.1" 200 155
+[17/Apr/2018 17:05:16] "GET /no_attendance/record/ HTTP/1.1" 200 12226
+[17/Apr/2018 17:05:24] "GET /no_attendance/todo/ HTTP/1.1" 200 29300
+[17/Apr/2018 17:05:24] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523932824635.jpg HTTP/1.1" 304 0
+[17/Apr/2018 17:05:24] "GET /static/image_enclosure/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180417163654-1523954383421.jpg HTTP/1.1" 304 0
+[17/Apr/2018 17:15:26] "GET /no_attendance/todo/ HTTP/1.1" 200 10481
+[17/Apr/2018 17:15:26] "GET /no_attendance/attendance/ HTTP/1.1" 200 15120
+[17/Apr/2018 17:15:28] "GET /no_attendance/leave/ HTTP/1.1" 200 20274
+[17/Apr/2018 17:15:54] "GET /no_attendance/record/ HTTP/1.1" 200 49820
+[17/Apr/2018 17:15:54] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523932824635.jpg HTTP/1.1" 304 0
+[17/Apr/2018 17:15:54] "GET /static/image_enclosure/9-1523930095677.jpg HTTP/1.1" 304 0
+[17/Apr/2018 17:15:54] "GET /static/image_enclosure/20180411-1523930095677.jpg HTTP/1.1" 304 0
+[17/Apr/2018 17:15:54] "GET /static/image_enclosure/%E8%83%8C%E6%99%AF%E5%9B%BE-1523931796415.jpg HTTP/1.1" 304 0
+[17/Apr/2018 17:15:54] "GET /static/image_enclosure/58c3ac2aa570f-1523931346737.jpg HTTP/1.1" 304 0
+[17/Apr/2018 17:15:54] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523931405926.jpg HTTP/1.1" 304 0
+[17/Apr/2018 17:15:54] "GET /static/image_enclosure/%E5%B0%9A%E5%BA%84-1523931848187.jpg HTTP/1.1" 304 0
+[17/Apr/2018 17:15:54] "GET /static/image_enclosure/20180411-1523931986282.jpg HTTP/1.1" 304 0
+[17/Apr/2018 17:15:54] "GET /static/image_enclosure/%E8%83%8C%E6%99%AF%E5%9B%BE-1523931986282.jpg HTTP/1.1" 304 0
+[17/Apr/2018 17:30:14] "GET /no_attendance/leave/ HTTP/1.1" 200 20274
+[17/Apr/2018 17:30:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 24576
+- Broken pipe from ('192.168.30.86', 63196)
+[17/Apr/2018 17:30:44] "GET /no_attendance/attendance/ HTTP/1.1" 200 15120
+[17/Apr/2018 17:37:53] "GET /no_attendance/attendance/ HTTP/1.1" 200 15477
+[17/Apr/2018 17:37:55] "GET /no_attendance/attendance/ HTTP/1.1" 200 15477
+[17/Apr/2018 17:37:55] "GET /no_attendance/attendance/ HTTP/1.1" 200 15477
+[17/Apr/2018 17:37:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 105942
+[17/Apr/2018 17:37:55] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16849
+[17/Apr/2018 17:37:55] "GET /static/css/style-metro.css HTTP/1.1" 200 13379
+[17/Apr/2018 17:37:55] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 21928
+[17/Apr/2018 17:37:55] "GET /static/css/style-responsive.css HTTP/1.1" 200 8951
+[17/Apr/2018 17:37:55] "GET /static/css/uniform.default.css HTTP/1.1" 200 10847
+[17/Apr/2018 17:37:55] "GET /static/css/default.css HTTP/1.1" 200 7204
+[17/Apr/2018 17:37:55] "GET /static/time_js/jquery.datetimepicker.css HTTP/1.1" 200 18420
+[17/Apr/2018 17:37:55] "GET /static/css/style.css HTTP/1.1" 200 99970
+[17/Apr/2018 17:37:55] "GET /static/image/menu-toggler.png HTTP/1.1" 200 948
+[17/Apr/2018 17:37:55] "GET /static/image/lingdu.png HTTP/1.1" 200 8622
+[17/Apr/2018 17:37:55] "GET /static/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 7200
+[17/Apr/2018 17:37:55] "GET /static/js/jquery-1.10.1.min.js HTTP/1.1" 200 93068
+[17/Apr/2018 17:37:55] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 28538
+[17/Apr/2018 17:37:55] "GET /static/js/jquery.slimscroll.min.js HTTP/1.1" 200 4525
+[17/Apr/2018 17:37:55] "GET /static/js/jquery-ui-1.10.1.custom.min.js HTTP/1.1" 200 228147
+[17/Apr/2018 17:37:55] "GET /static/js/jquery.blockui.min.js HTTP/1.1" 200 9595
+[17/Apr/2018 17:37:55] "GET /static/js/jquery.cookie.min.js HTTP/1.1" 200 1301
+[17/Apr/2018 17:37:55] "GET /static/js/jquery.uniform.min.js HTTP/1.1" 200 8308
+[17/Apr/2018 17:37:55] "GET /static/js/app.js HTTP/1.1" 200 33049
+[17/Apr/2018 17:37:55] "GET /static/time_js/build/jquery.datetimepicker.full.js HTTP/1.1" 200 114077
+[17/Apr/2018 17:37:55] "GET /static/js/bootstrap-datepicker.js HTTP/1.1" 200 37168
+[17/Apr/2018 17:37:55] "GET /static/js/search.js HTTP/1.1" 200 287
+[17/Apr/2018 17:37:55] "GET /static/js/jquery.fancybox.pack.js HTTP/1.1" 200 22643
+[17/Apr/2018 17:37:55] "GET /static/image/css HTTP/1.1" 200 0
+[17/Apr/2018 17:37:55] "GET /static/image/sidebar-toggler.jpg HTTP/1.1" 200 567
+[17/Apr/2018 17:37:55] "GET /static/image/icon-color.png HTTP/1.1" 200 1240
+[17/Apr/2018 17:37:55] "GET /static/image/sprite.png HTTP/1.1" 200 35400
+[17/Apr/2018 17:37:56] "GET /static/image/fontawesome-webfont.woff HTTP/1.1" 200 43572
+[17/Apr/2018 17:37:56] "GET /static/js/app.js HTTP/1.1" 200 33049
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 17, 2018 - 10:32:38
+Django version 1.9.5, using settings 'oa.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+259200.0
+7200.0
+14400.0
+864000.0
+1296000.0
+1296000.0
+864000.0
+1800.0
+432000.0
+432000.0
+187200.0
+/home/oa/oa/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/oa/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got login.views.login_index). Pass the callable instead.
+  url(r'^login/$', 'login.views.login_index', name='登录页面'),
+
+/home/oa/no_attendance/urls.py:16: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^backup/$', work_backup,name='导出'),
+

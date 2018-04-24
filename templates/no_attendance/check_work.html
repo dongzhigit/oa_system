@@ -1,0 +1,158 @@
+{% extends 'no_attendance/base.html' %}
+{% load staticfiles %}
+{% block content %}
+<h3 class="text-center ">
+   {{ title_content }}
+    考勤记录查询
+    <!--<small>未考勤说明单</small>-->
+</h3>
+
+<div class="tab-pane" id="data_export"><!-- 标签页--4--数据导出 -->
+            <form class="form-search" enctype="multipart/form-data" action="" role="form" method="post">{% csrf_token %}
+                <div class="span4">
+                    <div class="control-group">
+                        <div class="controls">
+                            <div class="input-append date" data-date-format="yyyy-mm-dd" data-date-viewmode="years">
+                            <span class="add-on"><i>起始日期：</i></span>
+                                <input class="m-wrap m-ctrl-medium date-picker" size="16" type="text" name="begintime" value="{{ begintime }}" />
+                                <span class="add-on"><i class="icon-calendar"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="control-group">
+                        <div class="controls">
+                            <div class="input-append date" data-date-format="yyyy-mm-dd" data-date-viewmode="years">
+                            <span class="add-on"><i>结束日期：</i></span>
+                                <input class="m-wrap m-ctrl-medium date-picker" size="16" type="text" name="endtime" value="{{ endtime }}" />
+                                <span class="add-on"><i class="icon-calendar"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="span4">
+                    <div class="control-group">
+                        <div class="controls">
+                            <div class="input-append date" data-date-format="yyyy-mm-dd" data-date-viewmode="years">
+                            <span class="add-on"><i>用户名：</i></span>
+                                {% if cn_name in admin_list %}
+                                        <input type="text" class="m-wrap m-ctrl-medium date-picker" size="16" name="username" value="{{ username }}" />
+                                {% else %}
+                                        <input type="text" class="m-wrap m-ctrl-medium date-picker" size="16" name="username" value="{{ cn_name }}" disabled/>
+                                {% endif %}
+                            <span class="add-on"><i class=""></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="control-group">
+                        <div class="controls">
+
+                            <input type="checkbox" name="vehicle" value="checked" {{ check_box_list }} />不显示周末数据
+
+                        </div>
+                    </div>
+                </div>
+                <button class="btn blue btn-block">提交 <i class="m-icon-swapright icon-ok"></i></button>
+            </form>
+        </div>
+<p style="color: red;">{{ log }}</p>
+{% if time_dic %}
+    <div style="margin-bottom: 3%;">
+        <table border="1" style="margin-left: 15%;width: 70%;font-size: 17px;font-weight: bold;">
+  <thead style="background-color: rgb(156, 186, 95);color: #fff;">
+    <th>姓名</th>
+    <th>ID</th>
+    <th>工号</th>
+    <th>日期</th>
+{#    <th>工作/休假</th>#}
+    <th>星期</th>
+    <th>上班打卡时间</th>
+    <th>下班打卡时间</th>
+  </thead>
+<tbody>
+    <tr>
+{% if check_box_list %}
+    {% for i,y in time_dic.items %}
+        {% if y.week != '星期六' and y.week != '星期日' %}
+            {% if i <= present_date %}
+                <tr>
+                <td>{{ y.name }}</td>
+                <td>{{ y.uid }}</td>
+                <td>{{ y.userid }}</td>
+                <td>{{ i }}</td>
+            {#    <td>{{ y.tool }}</td>#}
+                <td>{{ y.week }}</td>
+                {% if y.1 and y.2 %}
+                    {% if y.1 > '08:30:00' %}
+                    <td bgcolor="#FF359A">{{ y.1 }}</td>
+                    {% else %}
+                        <td>{{ y.1 }}</td>
+                    {% endif %}
+                    {% if y.2 < '17:29:59' %}
+                    <td bgcolor="#FF0000">{{ y.2 }}</td>
+                    {% else %}
+                        <td>{{ y.2 }}</td>
+                    {% endif %}
+                {% elif y.day != 5 and y.day != 6 %}
+                    <td bgcolor="#ffad4e">{{ y.1 }}</td>
+                    <td bgcolor="#ffad4e">{{ y.2 }}</td>
+                {% else %}
+                    <td bgcolor="#d6f0ff"></td>
+                    <td bgcolor="#d6f0ff"></td>
+                {% endif %}
+                </tr>
+            {% endif %}
+        {% endif %}
+    </tbody>
+    {% endfor %}
+{% else %}
+    {% for i,y in time_dic.items %}
+        {% if i <= present_date %}
+            <tr>
+            <td>{{ y.name }}</td>
+            <td>{{ y.uid }}</td>
+            <td>{{ y.userid }}</td>
+            <td>{{ i }}</td>
+        {#    <td>{{ y.tool }}</td>#}
+            <td>{{ y.week }}</td>
+            {% if y.1 and y.2 %}
+                {% if y.1 > '08:30:00' %}
+                <td bgcolor="#FF359A">{{ y.1 }}</td>
+                {% else %}
+                    <td>{{ y.1 }}</td>
+                {% endif %}
+                {% if y.2 < '17:29:59' %}
+                <td bgcolor="#FF0000">{{ y.2 }}</td>
+                {% else %}
+                    <td>{{ y.2 }}</td>
+                {% endif %}
+            {% elif y.day != 5 and y.day != 6 %}
+                <td bgcolor="#ffad4e">{{ y.1 }}</td>
+                <td bgcolor="#ffad4e">{{ y.2 }}</td>
+            {% else %}
+                <td bgcolor="#d6f0ff"></td>
+                <td bgcolor="#d6f0ff"></td>
+            {% endif %}
+            </tr>
+        {% endif %}
+    {% endfor %}
+{% endif %}
+{% endif %}
+
+{% endblock %}
+{% block js %}
+    <script type="text/javascript" src="/static/js/bootstrap-datepicker.js"></script>
+	<script src="/static/js/jquery.fancybox.pack.js"></script>
+	<script src="/static/js/app.js"></script>
+	<script src="/static/js/search.js"></script>
+	<script>
+		jQuery(document).ready(function() {
+
+		   Search.init();
+		});
+	</script>
+{% endblock %}

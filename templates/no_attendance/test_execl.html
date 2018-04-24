@@ -1,0 +1,96 @@
+{% extends 'no_attendance/base.html' %}
+
+{% block content %}
+<h3 class="text-center ">
+   {{ title_content }}
+    <!--<small>未考勤说明单</small>-->
+</h3>
+<div class="tab-pane" id="data_export"><!-- 标签页--4--数据导出 -->
+            <h4>导出条件选项</h4>
+            <form class="form-search" enctype="multipart/form-data" action="" role="form" method="post">{% csrf_token %}
+                <div class="span4">
+                    <div class="control-group">
+                        <div class="controls">
+                            <div class="input-append date" data-date-format="yyyy-mm-dd" data-date-viewmode="years">
+                            <span class="add-on"><i>用户名：</i></span>
+                                <select name='uid'>
+                                    <option value="" selected="selected">全选</option>
+                                    {% for i in username %}
+                                        <option value="{{ i.id }}">{{ i.cn_name }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="control-group">
+                        <div class="controls">
+                            <div class="input-append date" data-date-format="yyyy-mm-dd" data-date-viewmode="years">
+                            <span class="add-on"><i>类型：</i></span>
+                                <select name='leave_type'>
+                                <option value="" selected="selected">全选</option>
+                                {% for y in kq_type %}
+                                    <option value="{{ y.type }}">{{ y.type }}</option>
+                                {% endfor %}
+                                <option value="忘打卡">忘打卡</option>
+                                <option value="因公外出">因公外出</option>
+                            </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="control-group">
+                        <div class="controls">
+                            <div class="input-append date" data-date-format="yyyy-mm-dd" data-date-viewmode="years">
+                            <span class="add-on"><i>审核状态：</i></span>
+                                <select name='examine_status'>
+                                    <option value="3" selected="selected">审批已通过</option>
+                                    <option value="2" selected="selected">审批未通过</option>
+                                    <option value="1" selected="selected">审批中</option>
+                                    <option value="0" selected="selected">未审批</option>
+                                    <option value="" selected="selected">全选</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="control-group">
+                        <div class="controls">
+                            <div class="input-append date" data-date-format="yyyy-mm-dd" data-date-viewmode="years">
+                            <span class="add-on"><i>起始日期：</i></span>
+                                <input class="m-wrap m-ctrl-medium date-picker" size="16" type="text" name="begin_time" value="" />
+                                <span class="add-on"><i class="icon-calendar"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="control-group">
+                        <div class="controls">
+                            <div class="input-append date" data-date-format="yyyy-mm-dd" data-date-viewmode="years">
+                            <span class="add-on"><i>结束日期：</i></span>
+                                <input class="m-wrap m-ctrl-medium date-picker" size="16" type="text" name="end_time" value="" />
+                                <span class="add-on"><i class="icon-calendar"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn blue btn-block">提交 <i class="m-icon-swapright icon-ok"></i></button>
+            </form>
+        </div>
+{% endblock %}
+{% block js %}
+	<script type="text/javascript" src="/static/js/bootstrap-datepicker.js"></script>
+	<script src="/static/js/jquery.fancybox.pack.js"></script>
+	<script src="/static/js/app.js"></script>
+	<script src="/static/js/search.js"></script>
+	<script>
+		jQuery(document).ready(function() {
+
+		   Search.init();
+		});
+	</script>
+{% endblock %}

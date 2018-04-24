@@ -1,0 +1,152 @@
+{% extends 'no_attendance/base.html' %}
+{#引入过滤器#}
+{% load myfilter %}
+{% block content %}
+<h3 class="text-center ">
+{{ title_content }}
+    <!--<small>未考勤说明单</small>-->
+</h3>
+<form class="form-search" action="" role="form" method="post">{% csrf_token %}
+<div class="row-fluid">
+    <div class="span12">
+        <!-- BEGIN SAMPLE FORM PORTLET-->
+        <div class="portlet box blue tabbable">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class="icon-reorder"></i>
+                    <span class="hidden-480"></span>
+                </div>
+            </div>
+            <div class="portlet-body form">
+                <div class="tabbable portlet-tabs">
+                    <ul class="nav nav-tabs">
+                        <li><a href="#portlet_tab2" data-toggle="tab">已审批通过</a></li>
+                        <li class="active"><a href="#portlet_tab1" data-toggle="tab">未审批通过</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="portlet_tab1">
+                        {% for log in log_id %}
+                            {% if log.status == 0 %}
+                                {% for fxlog in log|fanxiang_log %}
+                                    <label class="control-label "  for="firstName">
+                                    姓名:{{ fxlog.uid|username_hq }}<br>
+                                    部门:{{ department }}<br>
+                                    职位:{{ department }}<br>
+                                    提交时间:{{ fxlog.submit_time }}<br>
+                                    {% if fxlog.end_time %}
+                                        申请时段:{{ fxlog.begin_time }}_至_{{ fxlog.end_time }}<br>
+                                    {% else %}
+                                        申请时段:{{ fxlog.begin_time }}<br>
+                                    {% endif %}
+                                    {% if fxlog.leave_time %}
+                                        申请时长：{{ fxlog.leave_time|leave_t }}<br>
+                                    {% endif%}
+                                    {% if fxlog.entry_time != None %}
+                                        转正日期：{{ fxlog.entry_time }}<br>
+                                    {% endif %}
+                                    类型：{{ fxlog.leave_type }}<br>
+                                    原因:{{ fxlog.reason }}<br>
+                                    {% if log|enclosure_log %}
+                                        附件：<br>
+                                        <div id="top">
+                                            <div class="img_container">
+                                                <ul>
+                                                {% for en_log in log|enclosure_log %}
+                                                    <li>
+                                                        <a href="/static/image_enclosure/{{ en_log.filename }}" rel="sexylightbox" title="{{ en_log.filename }}" >
+                                                        <img src="/static/image_enclosure/{{ en_log.filename }}" alt="" />
+                                                    </a>
+                                                    </li>
+    {#                                                <li><a href="/static/fj/images/iguazu02.jpg?width=400&height=300"   title="Cataratas del Iguazú" rel="sexylightbox" ><img src="/static/fj/images/small_iguazu02.jpg" alt="" /></a></li>#}
+                                                {% endfor %}
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                    审批时间：{{ log.datetime }}<br>
+                                    审批反馈：{{ log.outgoing_cause }}<br>
+                                    状态：未审批通过<br>
+                                    </label>
+                                    <hr style="margin-top: 0px;margin-bottom: 0px;border-top-width: 10px;border-bottom-width: 15px;">
+                                {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+                        </div>
+                        <div class="tab-pane " id="portlet_tab2">
+                            {% for log in log_id %}
+                                {% if log.status == 1 %}
+                                    {% for fxlog in log|fanxiang_log %}
+                                        <label class="control-label "  for="firstName">
+                                        姓名:{{ fxlog.uid|username_hq }}<br>
+                                        部门:{{ department }}<br>
+                                        职位:{{ department }}<br>
+                                        提交时间:{{ fxlog.submit_time }}<br>
+                                        {% if fxlog.end_time %}
+                                            申请时段:{{ fxlog.begin_time }}_至_{{ fxlog.end_time }}<br>
+                                        {% else %}
+                                            申请时段:{{ fxlog.begin_time }}<br>
+                                        {% endif %}
+                                        {% if fxlog.leave_time %}
+                                            申请时长：{{ fxlog.leave_time|leave_t }}<br>
+                                        {% endif%}
+                                        {% if fxlog.entry_time != None %}
+                                            转正日期：{{ fxlog.entry_time }}<br>
+                                        {% endif %}
+                                        类型：{{ fxlog.leave_type }}<br>
+                                        原因:{{ fxlog.reason }}<br>
+                                        {% if log|enclosure_log %}
+                                        附件：<br>
+                                        <div id="top">
+                                            <div class="img_container">
+                                                <ul>
+                                                {% for en_log in log|enclosure_log %}
+                                                    <li>
+                                                        <a href="/static/image_enclosure/{{ en_log.filename }}" rel="sexylightbox" title="{{ en_log.filename }}" >
+                                                        <img src="/static/image_enclosure/{{ en_log.filename }}" alt="" />
+                                                    </a>
+                                                    </li>
+    {#                                                <li><a href="/static/fj/images/iguazu02.jpg?width=400&height=300"   title="Cataratas del Iguazú" rel="sexylightbox" ><img src="/static/fj/images/small_iguazu02.jpg" alt="" /></a></li>#}
+                                                {% endfor %}
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        {% endif %}
+                                        审批时间：{{ log.datetime }}<br>
+                                        审批反馈：{{ log.outgoing_cause }}<br>
+                                        状态：已审批通过<br>
+                                        </label>
+                                        <hr style="margin-top: 0px;margin-bottom: 0px;border-top-width: 10px;border-bottom-width: 15px;">
+                                    {% endfor %}
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END SAMPLE FORM PORTLET-->
+    </div>
+</div>
+</form>
+
+
+
+
+{% endblock %}
+{% block js %}
+	<script type="text/javascript" src="/static/js/bootstrap-datepicker.js"></script>
+	<script src="/static/js/jquery.fancybox.pack.js"></script>
+	<script src="/static/js/app.js"></script>
+	<script src="/static/js/search.js"></script>
+    <link rel="stylesheet" href="/static/fj/global.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/static/fj/sexylightbox.css" type="text/css" media="all" />
+{#    <script type="text/javascript" src="/static/fj/js/jquery.min.js"></script>#}
+    <script type="text/javascript" src="/static/fj/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="/static/fj/js/sexylightbox.v2.3.jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+             SexyLightbox.initialize({color:'black', dir: '/static/fj/sexyimages'});
+        });
+	</script>
+
+{% endblock %}

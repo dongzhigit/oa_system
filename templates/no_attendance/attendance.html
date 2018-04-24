@@ -1,0 +1,182 @@
+{% extends 'no_attendance/base.html' %}
+
+{% block content %}
+<h3 class="text-center ">
+   {{ title_content }}
+    <!--<small>未考勤说明单</small>-->
+</h3>
+<div class="tab-pane active" id="tab_1">
+	<form class="form-search" action="" role="form" method="post">{% csrf_token %}
+		<div class="portlet box blue">
+			<div class="portlet-title"></div>
+			<div class="portlet-body form">
+				<form action="#" class="horizontal-form">
+					<div class="row-fluid">
+						<div class="span3 ">
+							<div class="control-group">
+								<label class="control-label span8"  for="firstName">姓名:  {{ oa_u.cn_name }}</label>
+{#								<div class="controls">#}
+{#									<input type="text" name="username" class="m-wrap span8" placeholder="输入姓名">#}
+{#								</div>#}
+							</div>
+						</div>
+	
+						<div class="span3 ">
+							<div class="control-group">
+								<label class="control-label span8"  for="firstName">部门:  {{ department }}</label>
+{#								<div class="controls">#}
+{#									<input type="text" name="department" class="m-wrap span8" placeholder="输入部门">#}
+{#								</div>#}
+							</div>
+						</div>
+	
+						<div class="span3 ">
+							<div class="control-group">
+								<label class="control-label span8"  for="firstName">职位: {{ position }}</label>
+{#								<div class="controls">#}
+{#									<input type="text" name="position" class="m-wrap span8" placeholder="输入职位">#}
+{#								</div>#}
+							</div>
+						</div>
+					</div>
+		<hr style="margin-top: 0px;margin-bottom: 0px;border-top-width: 1px;border-bottom-width: 15px;">
+
+
+		<div class="row-fluid">
+			<div class="span5">
+				<div class="control-group">
+					<label class="control-label span3" style="width: 20%;">未考勤时间:</label>
+					<div class="controls">
+                        <div class="input-append date" data-date-format="yyyy-mm-dd" data-date-viewmode="years">
+                        <span class="add-on"><i>起始日期</i></span>
+                            <input type="text" class="some_class m-wrap span9 m-ctrl-medium" size="16" name="date_s" value="{{ date_s }}" id="some_class_1">
+                            <span class="add-on"></span>
+                        </div>
+					</div>
+				</div>
+			</div>
+
+			<div class="span4 " id="enclosure">
+				<div class="input-append date" data-date-format="yyyy-mm-dd" data-date-viewmode="years">
+                    <span class="add-on"><i>结束日期</i></span>
+                    <input type="text" class="some_class m-wrap span9 m-ctrl-medium" size="16" name="date_x" value="{{ date_x }}" id="some_class_2">
+                        <span class="add-on"></span>
+                </div>
+			</div>
+
+		</div>
+
+
+		<hr style="margin-top: 0px;margin-bottom: 0px;border-top-width: 1px;border-bottom-width: 15px;">
+	
+		<div class="row-fluid">
+			<div class="span5">
+				<div class="control-group">
+					<label class="control-label span3"  for="firstName">未考勤原因:</label>
+						<div class="controls">
+							<label class="radio">
+							<div class="radio"><span class="">
+                                {% if reason == "忘打卡" %}
+                                    <input type="radio" checked="checked" onclick="check_input(this)" name="reason" value="忘打卡" >
+                                {% else %}
+                                    <input type="radio" onclick="check_input(this)" name="reason" value="忘打卡" >
+                                {% endif %}
+                            </span></div>
+									忘打卡
+							</label>
+							<label class="radio">
+								<div class="radio"><span class="">
+                                    {% if reason == "因公外出" %}
+                                        <input type="radio" onclick="check_input(this)" name="reason" value="因公外出">
+                                    {% else %}
+                                        <input type="radio" checked="checked" onclick="check_input(this)" name="reason" value="因公外出">
+                                    {% endif %}
+                                </span></div>
+									因公外出
+							</label>
+						</div>
+				</div>
+			</div>
+		</div>
+		
+		<hr style="margin-top: 0px;margin-bottom: 0px;border-top-width: 1px;border-bottom-width: 15px;">
+	
+		<div class="row-fluid" id="firstName_div">
+			<div class="control-group">
+				<label class="control-label span1"  for="firstName">外出事由:</label>
+				<div class="controls">
+					<input type="text" id="firstName" class="m-wrap span11" name="outgoing_cause" value="{{ outgoing_cause }}" placeholder="因公外出必须请写明外出地点、事由以及接待人的全名及联系方式">
+				</div>
+			</div>
+		</div>
+	
+		<div type="button" class="btn blue btn-block" onclick="check_time_s(this)">提交 <i class="m-icon-swapright icon-ok"></i></div>
+	
+	</form>
+</div>
+</div>
+
+{% endblock %}
+{% block js %}
+	<script type="text/javascript" src="/static/js/bootstrap-datepicker.js"></script>
+	<script src="/static/js/jquery.fancybox.pack.js"></script>
+	<script src="/static/js/app.js"></script>
+	<script src="/static/js/search.js"></script>
+	<script>
+    {% if title_content_log %}
+        alert("{{ title_content_log }}");
+{#        window.location.replace("/no_attendance/attendance/")#}
+    {% endif %}
+		jQuery(document).ready(function() {
+
+		   Search.init();
+		});
+		function check_input(input_s) {
+            var input = input_s.value;
+{#            console.log(input)#}
+            if (input === "忘打卡") {
+                $("#enclosure").hide();
+                $("#firstName_div").hide();
+            }else{
+                $("#enclosure").show();
+                $("#firstName_div").show();
+            }
+        }
+        function check_time_s() {
+		    var bFlag = false;
+		    var check_time = document.getElementById('some_class_1').value;
+            var check_time_1 = document.getElementById('some_class_2').value;
+            var reason = document.getElementsByName('reason');
+            var firstName = document.getElementById('firstName').value;
+{#            console.log(firstName);#}
+            if (check_time === ''){
+                alert("请选择起始时间");
+                return true;
+            }else {
+                for (var i = 0; i < reason.length; i++) {
+                    if (reason[i].checked) {
+                        if(reason[i].value === "因公外出"){
+                            if (check_time_1 === '') {
+                                alert("请选择结束时间");
+                                return false
+                            }
+                            if(firstName === ''){
+                                alert('请填写外出事由');
+                                return false
+                            }
+                        }
+                        bFlag = true;
+                        break;
+                    }
+                }
+
+                if (bFlag === false) {
+                    alert('请选择未考勤原因');
+                    return false
+                }
+            }
+            $('.form-search').submit()
+
+        }
+	</script>
+{% endblock %}
